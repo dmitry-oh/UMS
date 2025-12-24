@@ -65,4 +65,18 @@ public class UMS_Edit : MonoBehaviour
         = new Vector2(line_start, y - onebeat_size / 2);
         SaveEdit();
     }
+
+    [SerializeField] Transform tTimebar;
+    float time=0;
+    [ContextMenu("Play")]
+    void Play()
+    {
+        
+    }
+    
+    [ContextMenu("Stop")]
+    void Stop()
+    {
+        
+    }
 }
