@@ -52,7 +52,7 @@ public class KeyValue
 public class DataQueue
 {
     public int cur_bar=0;//현재 진행한 bar
-    public List<DataValue> datas =new List<DataValue>();
+    public List<DataValue> datas =new List<DataValue>();//RawData의 복제품
     public void Enqueue(DataValue value)
     {
         datas.Add(value);
@@ -69,12 +69,17 @@ public class DataQueue
         var dv = datas.Find(v=>v.bar==bar&&v.ch==ch);
         datas.Remove(dv);
     }
-    public List<DataValue> Dequeue()
+    public List<DataValue> DequeueList()
     {
         var value = datas.Where(v=>v.bar==cur_bar).ToList();
         cur_bar++;
         return value;
-    }
+    } 
+    public List<DataValue> DequeueListBar(int bar)
+    {
+        var value = datas.Where(v=>v.bar==bar).ToList();
+        return value;
+    } 
     public int GetLastBar()
     {
         return datas.Last().bar;

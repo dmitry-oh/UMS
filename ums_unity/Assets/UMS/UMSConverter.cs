@@ -2,8 +2,9 @@ using UnityEngine;
 using UnityEditor;
 public static class UMSConverter
 {
-    public static void UMS2BMS(TextAsset asset)
+    public static void BMS2UMS(string file)
     {
+        
         UMSObject ums = ScriptableObject.CreateInstance<UMSObject>();
         if (ums == null)
         {
@@ -11,7 +12,7 @@ public static class UMSConverter
             return;
         }
         Header header= ums.header;
-        string[] lines = asset.text.Split('\n');
+        string[] lines = file.Split('\n');
         foreach (string line in lines)
         {
             if (string.IsNullOrEmpty(line)||line[0]!='#')
@@ -57,16 +58,20 @@ public static class UMSConverter
                 //데이터인경우
                 DataValue dv=new DataValue();
                 string[] datarow = d.Split(':');
-                dv.bar=int.Parse(datarow[0]);
-                dv.ch=int.Parse(datarow[1]);
-                dv.data=datarow[2];
+                dv.bar=int.Parse(datarow[0].Substring(0,3));
+                dv.ch=int.Parse(datarow[0].Substring(3,2));
+                dv.data=datarow[1];
                 ums.dataQueue.Enqueue(dv);
             }
         }
 
-        string path = $"Assets/{asset.name}_ums.asset";
+        string path = $"Assets/{ums.header.title}_ums.asset";
         AssetDatabase.CreateAsset(ums, path);
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();  // 추가
+    }
+    public static void TXT2UMS(TextAsset asset)
+    {
+        BMS2UMS(asset.text);
     }
 }

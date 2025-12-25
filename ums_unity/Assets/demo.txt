@@ -1,2 +1,3 @@
-﻿#TITLE NewTitle
-#001:01:010100101010
+﻿#TITLE NewTitle hard
+#GENRE alternative
+#00101:010100101010

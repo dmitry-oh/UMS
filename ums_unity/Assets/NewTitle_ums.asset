@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 87394f1c202997e4ca1b03b96aac8856, type: 3}
-  m_Name: demo_ums
+  m_Name: NewTitle_ums
   m_EditorClassIdentifier: 
   header:
-    title: "NewTitle\r"
+    title: NewTitle
     artist: 
-    genre: 
+    genre: "alternative\r"
     comment: 
     bpm: 0
     playlevel: 0
@@ -24,6 +24,12 @@ MonoBehaviour:
   dataQueue:
     cur_bar: 0
     datas:
-    - bar: 1
+    - bar: 0
       ch: 1
       data: 010100101010
+    - bar: 1
+      ch: 2
+      data: 1010100101010111
+    - bar: 1
+      ch: 4
+      data: 0101010001001

@@ -1,0 +1,7421 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87394f1c202997e4ca1b03b96aac8856, type: 3}
+  m_Name: Chilly_ums
+  m_EditorClassIdentifier: 
+  header:
+    title: Chilly
+    artist: C4
+    genre: "Hardtek\r"
+    comment: 
+    bpm: 200
+    playlevel: 25
+    keycnt: 0
+    keyValues: []
+  dataQueue:
+    cur_bar: 0
+    datas:
+    - bar: 1
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 1
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 1
+      ch: 11
+      data: "01010101\r"
+    - bar: 1
+      ch: 13
+      data: "003T003T003T003T\r"
+    - bar: 1
+      ch: 14
+      data: "3U00003U\r"
+    - bar: 1
+      ch: 15
+      data: "003V0000\r"
+    - bar: 1
+      ch: 18
+      data: "003W\r"
+    - bar: 1
+      ch: 19
+      data: "0002000200020002\r"
+    - bar: 2
+      ch: 15
+      data: "3V00003V\r"
+    - bar: 2
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 2
+      ch: 14
+      data: "003U\r"
+    - bar: 2
+      ch: 18
+      data: "003W0000\r"
+    - bar: 2
+      ch: 19
+      data: "0002000200020002\r"
+    - bar: 2
+      ch: 11
+      data: "01010101\r"
+    - bar: 2
+      ch: 13
+      data: "003T003T003T003T\r"
+    - bar: 2
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 3
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 3
+      ch: 18
+      data: "3W00003W\r"
+    - bar: 3
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 3
+      ch: 15
+      data: "003V\r"
+    - bar: 3
+      ch: 13
+      data: "003T003T003T003T\r"
+    - bar: 3
+      ch: 11
+      data: "01010101\r"
+    - bar: 3
+      ch: 14
+      data: "003U0000\r"
+    - bar: 3
+      ch: 19
+      data: "0002000200020002\r"
+    - bar: 4
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 4
+      ch: 15
+      data: "003V0000\r"
+    - bar: 4
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 4
+      ch: 19
+      data: "0002000200020002\r"
+    - bar: 4
+      ch: 11
+      data: "01010101\r"
+    - bar: 4
+      ch: 18
+      data: "003W\r"
+    - bar: 4
+      ch: 14
+      data: "3U00003U\r"
+    - bar: 4
+      ch: 13
+      data: "003T003T003T003T\r"
+    - bar: 5
+      ch: 15
+      data: "002P0000002P0037\r"
+    - bar: 5
+      ch: 12
+      data: "003T003T003T003T\r"
+    - bar: 5
+      ch: 18
+      data: "2F3V3W31\r"
+    - bar: 5
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 5
+      ch: 11
+      data: "01010101\r"
+    - bar: 5
+      ch: 14
+      data: "3U00002Z000037002F0000003U000038\r"
+    - bar: 5
+      ch: 4
+      data: "4I0100004I014I014I0100004I014I014I0100004I014I014I0100004I014I01\r"
+    - bar: 5
+      ch: 13
+      data: "00000000310000380000002Z00000000\r"
+    - bar: 5
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 5
+      ch: 19
+      data: "0002000200020002\r"
+    - bar: 6
+      ch: 12
+      data: "003T003T003T323T\r"
+    - bar: 6
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 6
+      ch: 13
+      data: "2F0000000000000030000000000000003U000000000000000034000000000000\r"
+    - bar: 6
+      ch: 14
+      data: "00002P000000003800002P0000350038\r"
+    - bar: 6
+      ch: 19
+      data: "0002000200020002\r"
+    - bar: 6
+      ch: 15
+      data: "3V00000000002Z00000000003700000000002J00000000003V00003600000000\r"
+    - bar: 6
+      ch: 4
+      data: "2Q000100000000002Q0001002Q0001002Q000100000000002Q0001002Q0001002Q0001002Q0001002Q0001002Q0001002Q014I012Q014I012Q0001002Q000100\r"
+    - bar: 6
+      ch: 18
+      data: "000000003W0000002G00002Z00003700\r"
+    - bar: 6
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 6
+      ch: 11
+      data: "01010101\r"
+    - bar: 7
+      ch: 11
+      data: "01010101\r"
+    - bar: 7
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 7
+      ch: 4
+      data: "4I0100004I014I014I0100004I014I014I0100004I014I014I0100004I014I01\r"
+    - bar: 7
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 7
+      ch: 14
+      data: "000000003U00003800002P0031000000\r"
+    - bar: 7
+      ch: 13
+      data: "2F00002Z000000002F00002Z00000038\r"
+    - bar: 7
+      ch: 19
+      data: "0002000200020002\r"
+    - bar: 7
+      ch: 18
+      data: "3W31003W\r"
+    - bar: 7
+      ch: 12
+      data: "003T003T003T003T\r"
+    - bar: 7
+      ch: 15
+      data: "002P00373V000037\r"
+    - bar: 8
+      ch: 1
+      data: "0000000000000000000000000000005U00000000000000000000000000000000\r"
+    - bar: 8
+      ch: 7
+      data: "4H4G01004F4E01004D4C01004B4A01005D5C5B5A595857565554535251504Z4Y41403Z3Y3X3W3V3U3T3S3R3Q3P3O3N3MC2C3C4C5C6C7C8C9CACBCCCDCECFCGCH\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 18
+      data: "2F00000000000000000000000000000000000000000000003300000000000000000000000000000000000000000000004H00000000000000000000000000002J00000000000000003J0000000000000000003F00000000000000000039000000\r"
+    - bar: 8
+      ch: 12
+      data: "0000000000004C00000000000000000000004E00000000000000000000000000000000000000000000000000000000000000002K000000000000000003000000000000000000000000003K0000000000000000003T0000000000000000000000\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 13
+      data: "0000000000000000000000003T00000000000000000000000000000000000000000000003T00000000000000000000000000000000002I00000000000000000000000000002K0000000000003I0000000000000000003E000000000000000000\r"
+    - bar: 8
+      ch: 1
+      data: "00000000000000000000000000004K4L\r"
+    - bar: 8
+      ch: 19
+      data: "0000000000000300000000000000000000000300000000003W00000000002G00000000004J00000000003D000000003A\r"
+    - bar: 8
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 4
+      data: "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001U1V1W1X1Y1Z20212223242526272829\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 11
+      data: "4B4D4F4G2H4I0405\r"
+    - bar: 8
+      ch: 14
+      data: "3U00000000000000000000000000000000002Z00000000000000000000003200000000000000000000003800000000000000000000000000002L00000000000000002H00000000000000000000003H0000000000000000003C00000000000000\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 1
+      data: "00\r"
+    - bar: 8
+      ch: 15
+      data: "0000000000002P00000000003V00000000003700000000000000000000003T00000000003U0000003G000000003B0000\r"
+    - bar: 9
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 9
+      ch: 12
+      data: "2F002P00003Q0000003M0000003Q0000\r"
+    - bar: 9
+      ch: 15
+      data: "003M00003P003R003L00003O00003R00\r"
+    - bar: 9
+      ch: 1
+      data: "00\r"
+    - bar: 9
+      ch: 1
+      data: "00\r"
+    - bar: 9
+      ch: 1
+      data: "00\r"
+    - bar: 9
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 9
+      ch: 1
+      data: "00\r"
+    - bar: 9
+      ch: 1
+      data: "00\r"
+    - bar: 9
+      ch: 1
+      data: "00450045\r"
+    - bar: 9
+      ch: 11
+      data: "01010101\r"
+    - bar: 9
+      ch: 19
+      data: "0002000200020002\r"
+    - bar: 9
+      ch: 1
+      data: "00\r"
+    - bar: 9
+      ch: 18
+      data: "0000003O0000003S00003N003P00003S\r"
+    - bar: 9
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 9
+      ch: 1
+      data: "00\r"
+    - bar: 9
+      ch: 4
+      data: "010000000000000000000000000000006A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P\r"
+    - bar: 9
+      ch: 13
+      data: "3L00002Z000037002F00002Z00003700\r"
+    - bar: 9
+      ch: 1
+      data: "00\r"
+    - bar: 9
+      ch: 1
+      data: "00\r"
+    - bar: 9
+      ch: 1
+      data: "00\r"
+    - bar: 9
+      ch: 14
+      data: "00003N003100003800002P0031000038\r"
+    - bar: 9
+      ch: 1
+      data: "00\r"
+    - bar: 9
+      ch: 16
+      data: "3X000000BRBQBO00BP00BO00BP00BO00\r"
+    - bar: 9
+      ch: 1
+      data: "00\r"
+    - bar: 10
+      ch: 1
+      data: "00\r"
+    - bar: 10
+      ch: 11
+      data: "01010101\r"
+    - bar: 10
+      ch: 1
+      data: "00450045\r"
+    - bar: 10
+      ch: 1
+      data: "00\r"
+    - bar: 10
+      ch: 13
+      data: "00003M000000000030000000000000002I0000002P0000003300003600000000\r"
+    - bar: 10
+      ch: 1
+      data: "00\r"
+    - bar: 10
+      ch: 1
+      data: "00\r"
+    - bar: 10
+      ch: 1
+      data: "00\r"
+    - bar: 10
+      ch: 1
+      data: "00\r"
+    - bar: 10
+      ch: 15
+      data: "3L00003O00003R003L003N003P003R00\r"
+    - bar: 10
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 10
+      ch: 14
+      data: "00002P00003Q00380000002Z00350038\r"
+    - bar: 10
+      ch: 4
+      data: "6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P\r"
+    - bar: 10
+      ch: 1
+      data: "3V3T3W3T3U3T3V3T\r"
+    - bar: 10
+      ch: 16
+      data: "BPBOBPBOBPBOBPBO\r"
+    - bar: 10
+      ch: 1
+      data: "00\r"
+    - bar: 10
+      ch: 18
+      data: "00003N003P00003S003M003O003Q003S\r"
+    - bar: 10
+      ch: 1
+      data: "00\r"
+    - bar: 10
+      ch: 19
+      data: "0002000200020002\r"
+    - bar: 10
+      ch: 1
+      data: "00\r"
+    - bar: 10
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 10
+      ch: 1
+      data: "00\r"
+    - bar: 10
+      ch: 12
+      data: "2F00000000002Z00000000003700000000002L00000000000034000037000000\r"
+    - bar: 10
+      ch: 1
+      data: "00\r"
+    - bar: 10
+      ch: 1
+      data: "00\r"
+    - bar: 11
+      ch: 16
+      data: "00000000BRBQBO00BP00BO00BP00BO00\r"
+    - bar: 11
+      ch: 1
+      data: "00450045\r"
+    - bar: 11
+      ch: 1
+      data: "00\r"
+    - bar: 11
+      ch: 1
+      data: "00\r"
+    - bar: 11
+      ch: 1
+      data: "00\r"
+    - bar: 11
+      ch: 1
+      data: "00\r"
+    - bar: 11
+      ch: 15
+      data: "3L003P3R3L3N3P3R\r"
+    - bar: 11
+      ch: 1
+      data: "00\r"
+    - bar: 11
+      ch: 1
+      data: "00\r"
+    - bar: 11
+      ch: 13
+      data: "2F002P00003Q003800002P0031000038\r"
+    - bar: 11
+      ch: 1
+      data: "00\r"
+    - bar: 11
+      ch: 1
+      data: "00\r"
+    - bar: 11
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 11
+      ch: 1
+      data: "00\r"
+    - bar: 11
+      ch: 19
+      data: "0002000200020002\r"
+    - bar: 11
+      ch: 18
+      data: "0000003O0000003S0000003O0000003S\r"
+    - bar: 11
+      ch: 11
+      data: "01010101\r"
+    - bar: 11
+      ch: 1
+      data: "00\r"
+    - bar: 11
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 11
+      ch: 1
+      data: "3W3T3U3T3V3T3W3T\r"
+    - bar: 11
+      ch: 12
+      data: "003M002Z00003700003M0000003Q0000\r"
+    - bar: 11
+      ch: 14
+      data: "00003N00310000002F00002Z00003700\r"
+    - bar: 11
+      ch: 1
+      data: "00\r"
+    - bar: 11
+      ch: 4
+      data: "010000000000000000000000000000006A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P\r"
+    - bar: 11
+      ch: 1
+      data: "00\r"
+    - bar: 12
+      ch: 18
+      data: "000000003N0000003P0000003R00000000003M00002L00003P0000003R000000\r"
+    - bar: 12
+      ch: 13
+      data: "0000000000002P00000000003200000000000000003800000000002H00000000003O0000003K00000000020000000000\r"
+    - bar: 12
+      ch: 1
+      data: "00\r"
+    - bar: 12
+      ch: 1
+      data: "00\r"
+    - bar: 12
+      ch: 12
+      data: "2F00000000000000000000000000000000002Z00000000000000000000003300000000000000000000000000000000000000002J00000000000000003N00000000000000000000003J0000000000000000003F000000000000003B0000000000\r"
+    - bar: 12
+      ch: 14
+      data: "3L00000000000000000000000000000000003O00000000000000000000000000000000003700000000000000000000002G00000000000000002K00000000000000000000002J0000000000003I000000000000003D0000000000000039000000\r"
+    - bar: 12
+      ch: 1
+      data: "00\r"
+    - bar: 12
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 12
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 12
+      ch: 1
+      data: "00\r"
+    - bar: 12
+      ch: 1
+      data: "00\r"
+    - bar: 12
+      ch: 15
+      data: "0000003M00000000000000000000003Q00000000003S00000000000000002I00000000000000003Q0000003E0000003A\r"
+    - bar: 12
+      ch: 1
+      data: "00\r"
+    - bar: 12
+      ch: 19
+      data: "0000000000000200000000000000000000000200000000003L00000000000000002G00000000003H000000003C000000\r"
+    - bar: 12
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 12
+      ch: 1
+      data: "00\r"
+    - bar: 12
+      ch: 1
+      data: "00\r"
+    - bar: 12
+      ch: 11
+      data: "010000000000000000000000010000000000000000000000010000000000020000000000010000003G000000003S0000\r"
+    - bar: 12
+      ch: 1
+      data: "00\r"
+    - bar: 12
+      ch: 1
+      data: "00\r"
+    - bar: 12
+      ch: 1
+      data: "00450045\r"
+    - bar: 12
+      ch: 1
+      data: "00\r"
+    - bar: 12
+      ch: 1
+      data: "00\r"
+    - bar: 12
+      ch: 4
+      data: "6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P\r"
+    - bar: 12
+      ch: 16
+      data: "BPBOBPBOBPBOBPBO\r"
+    - bar: 13
+      ch: 4
+      data: "010000000000000000000000000000006A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P\r"
+    - bar: 13
+      ch: 1
+      data: "00\r"
+    - bar: 13
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 13
+      ch: 1
+      data: "00\r"
+    - bar: 13
+      ch: 1
+      data: "00\r"
+    - bar: 13
+      ch: 1
+      data: "00\r"
+    - bar: 13
+      ch: 12
+      data: "003M000031003700003M0000003Q0000\r"
+    - bar: 13
+      ch: 1
+      data: "00\r"
+    - bar: 13
+      ch: 1
+      data: "00\r"
+    - bar: 13
+      ch: 15
+      data: "00003N003P0000003L003N003P00003S\r"
+    - bar: 13
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 13
+      ch: 11
+      data: "0002010001000100\r"
+    - bar: 13
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 13
+      ch: 13
+      data: "2F002P00003Q003800002P0031000038\r"
+    - bar: 13
+      ch: 1
+      data: "00\r"
+    - bar: 13
+      ch: 14
+      data: "0000002Z00003R002F00002Z00003700\r"
+    - bar: 13
+      ch: 1
+      data: "00\r"
+    - bar: 13
+      ch: 1
+      data: "00\r"
+    - bar: 13
+      ch: 1
+      data: "00\r"
+    - bar: 13
+      ch: 16
+      data: "00000000BRBQBO00BP00BO00BP00BO00\r"
+    - bar: 13
+      ch: 18
+      data: "3L00003O0000003S0000003O00003R00\r"
+    - bar: 13
+      ch: 19
+      data: "0100000200020002\r"
+    - bar: 13
+      ch: 1
+      data: "00\r"
+    - bar: 13
+      ch: 1
+      data: "00\r"
+    - bar: 13
+      ch: 1
+      data: "00450045\r"
+    - bar: 14
+      ch: 1
+      data: "00\r"
+    - bar: 14
+      ch: 1
+      data: "00\r"
+    - bar: 14
+      ch: 1
+      data: "00\r"
+    - bar: 14
+      ch: 1
+      data: "00\r"
+    - bar: 14
+      ch: 1
+      data: "3V3T3W3T3U3T3V3T\r"
+    - bar: 14
+      ch: 12
+      data: "2F00000000002Z00000000003700000000002K0000002Z000034000000003800\r"
+    - bar: 14
+      ch: 1
+      data: "00\r"
+    - bar: 14
+      ch: 14
+      data: "00003M000000000000003Q00000000002H0000003N0000000000003600000000\r"
+    - bar: 14
+      ch: 18
+      data: "3L00003O00003R003L00003O003Q003S\r"
+    - bar: 14
+      ch: 1
+      data: "00\r"
+    - bar: 14
+      ch: 1
+      data: "00450045\r"
+    - bar: 14
+      ch: 11
+      data: "0100010001000137\r"
+    - bar: 14
+      ch: 16
+      data: "BPBOBPBOBPBOBPBO\r"
+    - bar: 14
+      ch: 4
+      data: "6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P\r"
+    - bar: 14
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 14
+      ch: 1
+      data: "00\r"
+    - bar: 14
+      ch: 1
+      data: "00\r"
+    - bar: 14
+      ch: 1
+      data: "00\r"
+    - bar: 14
+      ch: 15
+      data: "00003N003P00003S003M000032003R00\r"
+    - bar: 14
+      ch: 19
+      data: "0002000200023P02\r"
+    - bar: 14
+      ch: 1
+      data: "00\r"
+    - bar: 14
+      ch: 1
+      data: "00\r"
+    - bar: 14
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 14
+      ch: 1
+      data: "00\r"
+    - bar: 14
+      ch: 13
+      data: "00002P003000003800002P0000350000\r"
+    - bar: 15
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 15
+      ch: 14
+      data: "003M00003100003800002P00003Q0000\r"
+    - bar: 15
+      ch: 15
+      data: "3L00003O00003R003L00003O00003R00\r"
+    - bar: 15
+      ch: 1
+      data: "00\r"
+    - bar: 15
+      ch: 1
+      data: "00\r"
+    - bar: 15
+      ch: 13
+      data: "2F00002Z00003700003M000031000038\r"
+    - bar: 15
+      ch: 1
+      data: "00\r"
+    - bar: 15
+      ch: 11
+      data: "01010101\r"
+    - bar: 15
+      ch: 1
+      data: "00\r"
+    - bar: 15
+      ch: 1
+      data: "00\r"
+    - bar: 15
+      ch: 1
+      data: "00\r"
+    - bar: 15
+      ch: 1
+      data: "3W3T3U3T3V3T3W3T\r"
+    - bar: 15
+      ch: 1
+      data: "00450045\r"
+    - bar: 15
+      ch: 1
+      data: "00\r"
+    - bar: 15
+      ch: 1
+      data: "00\r"
+    - bar: 15
+      ch: 16
+      data: "00000000BRBQBO00BP00BO00BP00BO00\r"
+    - bar: 15
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 15
+      ch: 1
+      data: "00\r"
+    - bar: 15
+      ch: 12
+      data: "00002P00003Q00002F00002Z00003700\r"
+    - bar: 15
+      ch: 1
+      data: "00\r"
+    - bar: 15
+      ch: 1
+      data: "00\r"
+    - bar: 15
+      ch: 1
+      data: "00\r"
+    - bar: 15
+      ch: 18
+      data: "00003N003P00003S00003N003P00003S\r"
+    - bar: 15
+      ch: 4
+      data: "010000000000000000000000000000006A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P\r"
+    - bar: 15
+      ch: 19
+      data: "0002000200020002\r"
+    - bar: 16
+      ch: 11
+      data: "3L0033002I3N3P3R\r"
+    - bar: 16
+      ch: 14
+      data: "2F00000000000000000000000000000000002Z00000000000000000000000000000000000000000000003800000000000000000000000000000000000000002K0000000000000000000000003I0000000000000000003E000000000039000000\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 16
+      ch: 1
+      data: "0000000000000000000000000000005U00000000000000000000000000000000\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 16
+      ch: 7
+      data: "01\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 16
+      ch: 19
+      data: "0000003O00003R00003M002I003H003S\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 16
+      ch: 15
+      data: "0000000000003M00000000000000000000000000000000003P00000000000000000000000000000000000000000000000000000000002G00000000000000000000000000002L000000000000000000003G000000000000000000000000003A00\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 16
+      ch: 18
+      data: "0000000000003N00000000000000003Q00000000000000003L00000000002H0000000000003K000000003D0000000000\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 16
+      ch: 4
+      data: "6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 16
+      ch: 12
+      data: "0000000000000000000000000000000000000000000000000000000000003200000000000000000000003S00000000000000002L00000000000000000000000000003O00000000000000000000003Q0000000000000000003C00000000000000\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 16
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 16
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 16
+      ch: 13
+      data: "0000000000000000000000002P00000000000000000000000000000000000000000000003700000000000000000000000000000000000000002J00000000000000000000000000003J0000000000000000003F000000000000003B0000000000\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 16
+      ch: 16
+      data: "BPBOBPBOBPBOBPBO\r"
+    - bar: 16
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 4
+      data: "010000000000000000000000000000006Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z707172737475\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 11
+      data: "01010101\r"
+    - bar: 17
+      ch: 12
+      data: "2F002P00003Q0000003M0000003Q0000\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 1
+      data: "8A\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 15
+      data: "00003N003P00003S00003N003P00003S\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 18
+      data: "3L00003O00003R003L00003O00003R00\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 13
+      data: "003M00003100003800002P0031000038\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 14
+      data: "0000002Z000037002F00002Z00003700\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 16
+      data: "00000000BVBUBS00BT00BS00BT00BS00\r"
+    - bar: 17
+      ch: 19
+      data: "0002000200020002\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 1
+      data: "00450045\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 17
+      ch: 1
+      data: "00\r"
+    - bar: 18
+      ch: 1
+      data: "00\r"
+    - bar: 18
+      ch: 1
+      data: "00\r"
+    - bar: 18
+      ch: 11
+      data: "01010101\r"
+    - bar: 18
+      ch: 1
+      data: "00450045\r"
+    - bar: 18
+      ch: 14
+      data: "003M00003P003R002G00003O0035003S\r"
+    - bar: 18
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 18
+      ch: 1
+      data: "00\r"
+    - bar: 18
+      ch: 1
+      data: "00\r"
+    - bar: 18
+      ch: 19
+      data: "0002000200023P02\r"
+    - bar: 18
+      ch: 13
+      data: "000000002P0000003000000000003800000000002P0000000034000037000000\r"
+    - bar: 18
+      ch: 1
+      data: "00\r"
+    - bar: 18
+      ch: 4
+      data: "6Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z707172737475\r"
+    - bar: 18
+      ch: 1
+      data: "00\r"
+    - bar: 18
+      ch: 1
+      data: "00\r"
+    - bar: 18
+      ch: 18
+      data: "3L00000000003O000000000000003S0000003M00000000000000003600000000\r"
+    - bar: 18
+      ch: 15
+      data: "00003N00003Q00003L003N0033003R00\r"
+    - bar: 18
+      ch: 1
+      data: "00\r"
+    - bar: 18
+      ch: 12
+      data: "2F00002Z00003700002J002Z003Q0038\r"
+    - bar: 18
+      ch: 16
+      data: "BTBSBTBSBTBSBTBS\r"
+    - bar: 18
+      ch: 1
+      data: "00\r"
+    - bar: 18
+      ch: 1
+      data: "00\r"
+    - bar: 18
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 18
+      ch: 1
+      data: "3V3T3W3T3U3T3V3T\r"
+    - bar: 18
+      ch: 1
+      data: "00\r"
+    - bar: 18
+      ch: 1
+      data: "00\r"
+    - bar: 19
+      ch: 16
+      data: "00000000BVBUBS00BT00BS00BT00BS00\r"
+    - bar: 19
+      ch: 18
+      data: "3L00003O0000003S0000003O0000003S\r"
+    - bar: 19
+      ch: 4
+      data: "010000000000000000000000000000006Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z707172737475\r"
+    - bar: 19
+      ch: 1
+      data: "00\r"
+    - bar: 19
+      ch: 13
+      data: "2F00002Z00003700003M002Z00003700\r"
+    - bar: 19
+      ch: 14
+      data: "00003N003100003800003N0031000038\r"
+    - bar: 19
+      ch: 1
+      data: "3W3T3U3T3V3T3W3T\r"
+    - bar: 19
+      ch: 1
+      data: "00\r"
+    - bar: 19
+      ch: 1
+      data: "00\r"
+    - bar: 19
+      ch: 1
+      data: "00\r"
+    - bar: 19
+      ch: 1
+      data: "00\r"
+    - bar: 19
+      ch: 1
+      data: "00\r"
+    - bar: 19
+      ch: 1
+      data: "00\r"
+    - bar: 19
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 19
+      ch: 1
+      data: "00\r"
+    - bar: 19
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 19
+      ch: 1
+      data: "00\r"
+    - bar: 19
+      ch: 1
+      data: "00\r"
+    - bar: 19
+      ch: 15
+      data: "003M00003P003R003L0000003P003R00\r"
+    - bar: 19
+      ch: 1
+      data: "00\r"
+    - bar: 19
+      ch: 12
+      data: "00002P00003Q00002F002P00003Q0000\r"
+    - bar: 19
+      ch: 1
+      data: "00\r"
+    - bar: 19
+      ch: 19
+      data: "0002000200020002\r"
+    - bar: 19
+      ch: 1
+      data: "00450045\r"
+    - bar: 19
+      ch: 11
+      data: "01010101\r"
+    - bar: 20
+      ch: 1
+      data: "00450045\r"
+    - bar: 20
+      ch: 19
+      data: "0000000000000200000000000000000000000200000000003L00000000000000002H000000003I000000020000000000\r"
+    - bar: 20
+      ch: 16
+      data: "BTBSBTBSBTBSBTBS\r"
+    - bar: 20
+      ch: 13
+      data: "3L00000000000000002Z00000000000000003700000000000000002I00000000003O00000000003Q0000003E00000000\r"
+    - bar: 20
+      ch: 1
+      data: "00\r"
+    - bar: 20
+      ch: 1
+      data: "00\r"
+    - bar: 20
+      ch: 15
+      data: "0000003M00000000000000003P00000000003R00000000002H00000000002G00000000003P0000003G000000003B0000\r"
+    - bar: 20
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 20
+      ch: 1
+      data: "00\r"
+    - bar: 20
+      ch: 1
+      data: "00\r"
+    - bar: 20
+      ch: 11
+      data: "0100000000000100000000000100003N00000100003R0039\r"
+    - bar: 20
+      ch: 1
+      data: "00\r"
+    - bar: 20
+      ch: 1
+      data: "00\r"
+    - bar: 20
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 20
+      ch: 1
+      data: "00\r"
+    - bar: 20
+      ch: 1
+      data: "00\r"
+    - bar: 20
+      ch: 18
+      data: "0000000000000000000000000000000000003O00000000000000000000003Q00000000000000000000000000000000000000000000003M00000000000000002J000000000000000000003K000000000000003F000000000000003S0000000000\r"
+    - bar: 20
+      ch: 1
+      data: "00\r"
+    - bar: 20
+      ch: 12
+      data: "2F00000000000000000000002P00000000000000000000000000000000003300000000000000000000003800000000000000002K00000000000000000200000000000000000000003J00000000000000000000003D0000000000000000003A00\r"
+    - bar: 20
+      ch: 1
+      data: "00\r"
+    - bar: 20
+      ch: 14
+      data: "0000000000000000000000003N00000000000000000000003200000000000000000000000000000000003S00000000000000000000000000002L00000000000000000000002K00000000000000003H0000000000000000003C00000000000000\r"
+    - bar: 20
+      ch: 1
+      data: "00\r"
+    - bar: 20
+      ch: 1
+      data: "00\r"
+    - bar: 20
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 20
+      ch: 4
+      data: "6Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z707172737475\r"
+    - bar: 21
+      ch: 1
+      data: "00\r"
+    - bar: 21
+      ch: 1
+      data: "00\r"
+    - bar: 21
+      ch: 1
+      data: "00\r"
+    - bar: 21
+      ch: 1
+      data: "00450045\r"
+    - bar: 21
+      ch: 16
+      data: "00000000BVBUBS00BT00BS00BT00BS00\r"
+    - bar: 21
+      ch: 11
+      data: "00010101\r"
+    - bar: 21
+      ch: 1
+      data: "00\r"
+    - bar: 21
+      ch: 1
+      data: "00\r"
+    - bar: 21
+      ch: 13
+      data: "2F00002Z000037002F00002Z00003700\r"
+    - bar: 21
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 21
+      ch: 14
+      data: "01003N003100003800002P0031000000\r"
+    - bar: 21
+      ch: 4
+      data: "010000000000000000000000000000006Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z707172737475\r"
+    - bar: 21
+      ch: 1
+      data: "00\r"
+    - bar: 21
+      ch: 15
+      data: "003M003O00003R003L00003O00003R00\r"
+    - bar: 21
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 21
+      ch: 19
+      data: "3L00000200020002\r"
+    - bar: 21
+      ch: 1
+      data: "00\r"
+    - bar: 21
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 21
+      ch: 12
+      data: "00002P00003Q0000003M0000003Q0038\r"
+    - bar: 21
+      ch: 1
+      data: "00\r"
+    - bar: 21
+      ch: 1
+      data: "00\r"
+    - bar: 21
+      ch: 1
+      data: "00\r"
+    - bar: 21
+      ch: 1
+      data: "00\r"
+    - bar: 21
+      ch: 18
+      data: "000002003P00003S00003N003P00003S\r"
+    - bar: 21
+      ch: 1
+      data: "00\r"
+    - bar: 22
+      ch: 1
+      data: "3V3T3W3T3U3T3V3T\r"
+    - bar: 22
+      ch: 1
+      data: "00\r"
+    - bar: 22
+      ch: 1
+      data: "00\r"
+    - bar: 22
+      ch: 1
+      data: "00\r"
+    - bar: 22
+      ch: 18
+      data: "00003N003P00003S0000003O0035003S\r"
+    - bar: 22
+      ch: 1
+      data: "00\r"
+    - bar: 22
+      ch: 16
+      data: "BTBSBTBSBTBSBTBS\r"
+    - bar: 22
+      ch: 1
+      data: "00\r"
+    - bar: 22
+      ch: 15
+      data: "3L00000000003O00000000003R00000000003M0000002Z000000003600000000\r"
+    - bar: 22
+      ch: 1
+      data: "00450045\r"
+    - bar: 22
+      ch: 11
+      data: "010001000100013R\r"
+    - bar: 22
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 22
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 22
+      ch: 12
+      data: "00002P00003Q00002I003N00003Q0000\r"
+    - bar: 22
+      ch: 19
+      data: "0000000002000000000000000200000000000000020000000034000002000000\r"
+    - bar: 22
+      ch: 13
+      data: "2F00002Z000037003L002P0032000038\r"
+    - bar: 22
+      ch: 1
+      data: "00\r"
+    - bar: 22
+      ch: 1
+      data: "00\r"
+    - bar: 22
+      ch: 14
+      data: "003M000030000038002L00003P003700\r"
+    - bar: 22
+      ch: 1
+      data: "00\r"
+    - bar: 22
+      ch: 1
+      data: "00\r"
+    - bar: 22
+      ch: 1
+      data: "00\r"
+    - bar: 22
+      ch: 4
+      data: "6Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z707172737475\r"
+    - bar: 22
+      ch: 1
+      data: "00\r"
+    - bar: 22
+      ch: 1
+      data: "00\r"
+    - bar: 23
+      ch: 13
+      data: "00002P003100003800002P003100003S\r"
+    - bar: 23
+      ch: 14
+      data: "003M0000003Q00002F00002Z00003700\r"
+    - bar: 23
+      ch: 1
+      data: "00\r"
+    - bar: 23
+      ch: 1
+      data: "00\r"
+    - bar: 23
+      ch: 1
+      data: "00\r"
+    - bar: 23
+      ch: 1
+      data: "00\r"
+    - bar: 23
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 23
+      ch: 1
+      data: "00450045\r"
+    - bar: 23
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 23
+      ch: 1
+      data: "00\r"
+    - bar: 23
+      ch: 19
+      data: "0002000200020002\r"
+    - bar: 23
+      ch: 1
+      data: "3W3T3U3T3V3T3W3T\r"
+    - bar: 23
+      ch: 18
+      data: "0000003O00003R003L00003O00003R00\r"
+    - bar: 23
+      ch: 1
+      data: "00\r"
+    - bar: 23
+      ch: 1
+      data: "00\r"
+    - bar: 23
+      ch: 16
+      data: "00000000BVBUBS00BT00BS00BT00BS00\r"
+    - bar: 23
+      ch: 11
+      data: "01000000010000000100000001000038\r"
+    - bar: 23
+      ch: 1
+      data: "00\r"
+    - bar: 23
+      ch: 15
+      data: "3L003N003P00003S00003N003P000000\r"
+    - bar: 23
+      ch: 12
+      data: "2F00002Z00003700003M0000003Q0000\r"
+    - bar: 23
+      ch: 1
+      data: "00\r"
+    - bar: 23
+      ch: 1
+      data: "00\r"
+    - bar: 23
+      ch: 4
+      data: "010000000000000000000000000000006Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z707172737475\r"
+    - bar: 23
+      ch: 1
+      data: "00\r"
+    - bar: 23
+      ch: 1
+      data: "00\r"
+    - bar: 24
+      ch: 19
+      data: "5Z00003O00005Z002G003N003J003D00\r"
+    - bar: 24
+      ch: 15
+      data: "0000000000005X00003R00005Y00002I0000003I00003C00\r"
+    - bar: 24
+      ch: 1
+      data: "00\r"
+    - bar: 24
+      ch: 1
+      data: "0000000000000000000000003P3Q3R3S\r"
+    - bar: 24
+      ch: 1
+      data: "00\r"
+    - bar: 24
+      ch: 1
+      data: "00\r"
+    - bar: 24
+      ch: 1
+      data: "00\r"
+    - bar: 24
+      ch: 1
+      data: "00\r"
+    - bar: 24
+      ch: 11
+      data: "000000002P00000033000000370000000000002K0000002J000000005V000000\r"
+    - bar: 24
+      ch: 1
+      data: "00\r"
+    - bar: 24
+      ch: 14
+      data: "3L003N00003Q00003L005X00003H003B\r"
+    - bar: 24
+      ch: 12
+      data: "2F00000000000000002Z00000000003200000000003800000000002H00000000003O000000000000003F00000000003A\r"
+    - bar: 24
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 24
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 24
+      ch: 1
+      data: "00\r"
+    - bar: 24
+      ch: 7
+      data: "01\r"
+    - bar: 24
+      ch: 1
+      data: "00\r"
+    - bar: 24
+      ch: 18
+      data: "0000000000005Y00000000000000000000000000000000000000003M00000000002G0000003K00000000003E00000000\r"
+    - bar: 24
+      ch: 13
+      data: "0000000000003M00000000000000000000000000000000003P00000000000000000000000000000000003S00000000000000002J00000000000000000000002L00000000000000005W000000000000003G000000000000000000000039000000\r"
+    - bar: 24
+      ch: 4
+      data: "2A012B012C012D012E012F012G012H012I012J012K012L012M012N012O012P01\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "8B\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 16
+      data: "1Z\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "003W\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 4
+      data: "8I018I018J018J018K018K018L018L018M018M018N018N018O018O018P018P018Q018Q018R018R018S018S018T018T018U018U018V018V018W018W018X018X01\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "3U00003U\r"
+    - bar: 25
+      ch: 1
+      data: "003T003T003T003T\r"
+    - bar: 25
+      ch: 1
+      data: "003V0000\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 25
+      ch: 1
+      data: "00\r"
+    - bar: 26
+      ch: 1
+      data: "00\r"
+    - bar: 26
+      ch: 1
+      data: "00\r"
+    - bar: 26
+      ch: 1
+      data: "00\r"
+    - bar: 26
+      ch: 1
+      data: "00\r"
+    - bar: 26
+      ch: 1
+      data: "00\r"
+    - bar: 26
+      ch: 1
+      data: "003W0000\r"
+    - bar: 26
+      ch: 1
+      data: "00\r"
+    - bar: 26
+      ch: 4
+      data: "8I018I018J018J018K018K018L018L018M018M018N018N018O018O018P018P018Q018Q018R018R018S018S018T018T018U018U018V018V018W018W018X018X01\r"
+    - bar: 26
+      ch: 1
+      data: "3V00003V\r"
+    - bar: 26
+      ch: 1
+      data: "00\r"
+    - bar: 26
+      ch: 1
+      data: "003U\r"
+    - bar: 26
+      ch: 1
+      data: "00\r"
+    - bar: 26
+      ch: 1
+      data: "00\r"
+    - bar: 26
+      ch: 1
+      data: "003T003T003T003T\r"
+    - bar: 26
+      ch: 1
+      data: "00\r"
+    - bar: 26
+      ch: 1
+      data: "00\r"
+    - bar: 26
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 26
+      ch: 1
+      data: "00\r"
+    - bar: 26
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 1
+      data: "62\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 4
+      data: "1U011U011U011U011V011V011V011V011W011W011W011W011X011X011X011X011Y011Y011Y011Y011Z011Z011Z011Z0120012001200120012101210121012101\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 1
+      data: "3W00003W\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 1
+      data: "003T003T003T003T\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 1
+      data: "003U0000\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 1
+      data: "003V\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 27
+      ch: 1
+      data: "00\r"
+    - bar: 28
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 28
+      ch: 1
+      data: "00\r"
+    - bar: 28
+      ch: 1
+      data: "00\r"
+    - bar: 28
+      ch: 1
+      data: "003T003T003T003T\r"
+    - bar: 28
+      ch: 1
+      data: "00\r"
+    - bar: 28
+      ch: 1
+      data: "00\r"
+    - bar: 28
+      ch: 1
+      data: "00\r"
+    - bar: 28
+      ch: 1
+      data: "00\r"
+    - bar: 28
+      ch: 1
+      data: "00\r"
+    - bar: 28
+      ch: 1
+      data: "00\r"
+    - bar: 28
+      ch: 1
+      data: "00\r"
+    - bar: 28
+      ch: 1
+      data: "00\r"
+    - bar: 28
+      ch: 1
+      data: "3U00003U\r"
+    - bar: 28
+      ch: 1
+      data: "00\r"
+    - bar: 28
+      ch: 4
+      data: "22012201220122012301230123012301240124012401240125012501250125012601260126012601270127012701270128012801280128012901290129012901\r"
+    - bar: 28
+      ch: 1
+      data: "003W\r"
+    - bar: 28
+      ch: 1
+      data: "00\r"
+    - bar: 28
+      ch: 1
+      data: "00\r"
+    - bar: 28
+      ch: 1
+      data: "003V0000\r"
+    - bar: 29
+      ch: 1
+      data: "00\r"
+    - bar: 29
+      ch: 1
+      data: "3U00003U\r"
+    - bar: 29
+      ch: 1
+      data: "00\r"
+    - bar: 29
+      ch: 1
+      data: "003T003T003T003T\r"
+    - bar: 29
+      ch: 1
+      data: "003W\r"
+    - bar: 29
+      ch: 1
+      data: "003V0000\r"
+    - bar: 29
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 29
+      ch: 1
+      data: "00\r"
+    - bar: 29
+      ch: 1
+      data: "00\r"
+    - bar: 29
+      ch: 1
+      data: "00\r"
+    - bar: 29
+      ch: 1
+      data: "00\r"
+    - bar: 29
+      ch: 4
+      data: "1U011U011U011U011V011V011V011V011W011W011W011W011X011X011X011X011Y011Y011Y011Y011Z011Z011Z011Z0120012001200120012101210121012101\r"
+    - bar: 29
+      ch: 1
+      data: "00\r"
+    - bar: 29
+      ch: 1
+      data: "00\r"
+    - bar: 29
+      ch: 1
+      data: "00\r"
+    - bar: 29
+      ch: 1
+      data: "00\r"
+    - bar: 29
+      ch: 1
+      data: "00\r"
+    - bar: 29
+      ch: 1
+      data: "00\r"
+    - bar: 29
+      ch: 1
+      data: "00\r"
+    - bar: 30
+      ch: 1
+      data: "00\r"
+    - bar: 30
+      ch: 1
+      data: "3V00003V\r"
+    - bar: 30
+      ch: 1
+      data: "003W0000\r"
+    - bar: 30
+      ch: 1
+      data: "00\r"
+    - bar: 30
+      ch: 1
+      data: "00\r"
+    - bar: 30
+      ch: 1
+      data: "00\r"
+    - bar: 30
+      ch: 1
+      data: "00\r"
+    - bar: 30
+      ch: 1
+      data: "00\r"
+    - bar: 30
+      ch: 1
+      data: "00\r"
+    - bar: 30
+      ch: 1
+      data: "003U\r"
+    - bar: 30
+      ch: 4
+      data: "22012201220122012301230123012301240124012401240125012501250125012601260126012601270127012701270128012801280128012901290129012901\r"
+    - bar: 30
+      ch: 1
+      data: "003T003T003T003T\r"
+    - bar: 30
+      ch: 1
+      data: "00\r"
+    - bar: 30
+      ch: 1
+      data: "00\r"
+    - bar: 30
+      ch: 1
+      data: "00\r"
+    - bar: 30
+      ch: 1
+      data: "00\r"
+    - bar: 30
+      ch: 1
+      data: "00\r"
+    - bar: 30
+      ch: 1
+      data: "00\r"
+    - bar: 30
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 31
+      ch: 1
+      data: "003T003T003T003T\r"
+    - bar: 31
+      ch: 1
+      data: "00\r"
+    - bar: 31
+      ch: 1
+      data: "00\r"
+    - bar: 31
+      ch: 1
+      data: "00\r"
+    - bar: 31
+      ch: 1
+      data: "00\r"
+    - bar: 31
+      ch: 1
+      data: "00\r"
+    - bar: 31
+      ch: 1
+      data: "00\r"
+    - bar: 31
+      ch: 4
+      data: "1U011U011U011U011V011V011V011V011W011W011W011W011X011X011X011X011Y011Y011Y011Y011Z011Z011Z011Z0120012001200120012101210121012101\r"
+    - bar: 31
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 31
+      ch: 1
+      data: "00\r"
+    - bar: 31
+      ch: 1
+      data: "00\r"
+    - bar: 31
+      ch: 1
+      data: "00\r"
+    - bar: 31
+      ch: 1
+      data: "3W00003W\r"
+    - bar: 31
+      ch: 1
+      data: "003V\r"
+    - bar: 31
+      ch: 1
+      data: "00\r"
+    - bar: 31
+      ch: 1
+      data: "003U0000\r"
+    - bar: 31
+      ch: 1
+      data: "00\r"
+    - bar: 31
+      ch: 1
+      data: "00\r"
+    - bar: 31
+      ch: 1
+      data: "00\r"
+    - bar: 32
+      ch: 4
+      data: "828486888A8C8E8G828486888A8C8E8GB6B7B8B9BABBBCBDBEBFBGBHBIBJBKBL7M7O7Q7S7U7W7Y807M7O7Q7S7U7W7Y801E1F1G1H1I1J1K1L1M1N1O1P1Q1R1S1T\r"
+    - bar: 32
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 32
+      ch: 16
+      data: "8C8D8E8F8G8H0000\r"
+    - bar: 32
+      ch: 14
+      data: "00000048\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 12
+      data: "0000000028000000002U0000000000002S0000002C002V00000000002Q000000\r"
+    - bar: 33
+      ch: 1
+      data: "60\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 14
+      data: "00002Q00000000004600002W00000000000000002Y00002W000000002E000000\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 13
+      data: "20000000000000000000000000000000000000002V00000000000000000000002B00000000000000002X000000000000BA000000000000000000000000000000\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 15
+      data: "2700000000000000290000002P000000B8000000002T000000002S0000002R00\r"
+    - bar: 33
+      ch: 4
+      data: "7M7N7O7P7Q7R7S7T7U7V7W7X7Y7Z808102030405060708090A0B0C0D0E0F0G0H01000000000000000I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0100000000000000\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 33
+      ch: 1
+      data: "0000000000460000\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 1
+      data: "0000490000490000\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 19
+      data: "2P000000000000000000000000000000BC00000000000000B900000000000000000000002Q0000000000002U000000000000000000000000B700000000000000\r"
+    - bar: 33
+      ch: 1
+      data: "00\r"
+    - bar: 33
+      ch: 18
+      data: "00002N002T00002R0000BB002R000000\r"
+    - bar: 33
+      ch: 11
+      data: "0600062A00062D00\r"
+    - bar: 34
+      ch: 13
+      data: "2700000000000000290000002A0000002R000000002X000000002R0000000000\r"
+    - bar: 34
+      ch: 1
+      data: "00\r"
+    - bar: 34
+      ch: 1
+      data: "00\r"
+    - bar: 34
+      ch: 1
+      data: "0000490000490000\r"
+    - bar: 34
+      ch: 1
+      data: "00\r"
+    - bar: 34
+      ch: 1
+      data: "00\r"
+    - bar: 34
+      ch: 1
+      data: "00000000002Y0000\r"
+    - bar: 34
+      ch: 18
+      data: "2P00000000000000B90000000000000000002T00000000002P00000000000000BA000000000000000000002T000000000000000000000000B900000000000000\r"
+    - bar: 34
+      ch: 1
+      data: "00\r"
+    - bar: 34
+      ch: 12
+      data: "00000000280000004600000000002Q00000000004600002V000000002E000000\r"
+    - bar: 34
+      ch: 14
+      data: "00002S0000000000B800002V00000000000000002C002U00000000002S000000\r"
+    - bar: 34
+      ch: 1
+      data: "00\r"
+    - bar: 34
+      ch: 15
+      data: "00000000000000002O00000000000000000000002U0000000000000000000000000000002S000000002W0000000000002Q00000000000000000000002Q000000\r"
+    - bar: 34
+      ch: 1
+      data: "00\r"
+    - bar: 34
+      ch: 1
+      data: "00\r"
+    - bar: 34
+      ch: 1
+      data: "00\r"
+    - bar: 34
+      ch: 11
+      data: "060006002B062D00\r"
+    - bar: 34
+      ch: 1
+      data: "00\r"
+    - bar: 34
+      ch: 1
+      data: "00\r"
+    - bar: 34
+      ch: 4
+      data: "82838485868788898A8B8C8D8E8F8G8H02030405060708090A0B0C0D0E0F0G0H01000000000000000I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0100000000000000\r"
+    - bar: 34
+      ch: 1
+      data: "00\r"
+    - bar: 34
+      ch: 1
+      data: "00\r"
+    - bar: 34
+      ch: 1
+      data: "00\r"
+    - bar: 34
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 34
+      ch: 19
+      data: "BC002XBB00B7BC00\r"
+    - bar: 35
+      ch: 4
+      data: "8I8J8K8L8M8N8O8P8Q8R8S8T8U8V8W8X02030405060708090A0B0C0D0E0F0G0H01000000000000000I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0100000000000000\r"
+    - bar: 35
+      ch: 14
+      data: "000000000000000029000000000000002B0000000600002U000000002E000000\r"
+    - bar: 35
+      ch: 1
+      data: "00\r"
+    - bar: 35
+      ch: 1
+      data: "00\r"
+    - bar: 35
+      ch: 1
+      data: "00\r"
+    - bar: 35
+      ch: 1
+      data: "00\r"
+    - bar: 35
+      ch: 12
+      data: "002R00004600002S000046002S000000\r"
+    - bar: 35
+      ch: 11
+      data: "060000000000000000000000000000000600000000002U00000000000000000000000000000000000000002X0000000000000000000000002R00000000000000\r"
+    - bar: 35
+      ch: 1
+      data: "00\r"
+    - bar: 35
+      ch: 19
+      data: "2700BCB900BBBA00\r"
+    - bar: 35
+      ch: 1
+      data: "00\r"
+    - bar: 35
+      ch: 1
+      data: "00\r"
+    - bar: 35
+      ch: 1
+      data: "00\r"
+    - bar: 35
+      ch: 13
+      data: "210000002800000000002T000000000000002R00002W000000002Q0000000000\r"
+    - bar: 35
+      ch: 1
+      data: "00\r"
+    - bar: 35
+      ch: 1
+      data: "00\r"
+    - bar: 35
+      ch: 1
+      data: "00\r"
+    - bar: 35
+      ch: 1
+      data: "00000000002C0000\r"
+    - bar: 35
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 35
+      ch: 18
+      data: "2P0000002W002P00B8002Y2T0000B700\r"
+    - bar: 35
+      ch: 1
+      data: "00\r"
+    - bar: 35
+      ch: 1
+      data: "0000490000490000\r"
+    - bar: 35
+      ch: 15
+      data: "00000000000000002N0000000000000000002X00000000002A000000000000002Q00000000000000002V0000000000002D00000000000000000000002S000000\r"
+    - bar: 35
+      ch: 1
+      data: "00\r"
+    - bar: 35
+      ch: 1
+      data: "00\r"
+    - bar: 36
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 36
+      ch: 1
+      data: "00\r"
+    - bar: 36
+      ch: 18
+      data: "2P00000000000000BD0000000000000000002W00000000000000000000000000000000002Q000000002U0000000000002D00000000000000000000002R000000\r"
+    - bar: 36
+      ch: 1
+      data: "00000000490000000000490000004A4A\r"
+    - bar: 36
+      ch: 1
+      data: "00\r"
+    - bar: 36
+      ch: 4
+      data: "8Y8Z909192939495969798999A9B9C9D02030405060708090A0B0C0D0E0F0G0H01000000000000000I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X020304050I0J0K0L\r"
+    - bar: 36
+      ch: 1
+      data: "00\r"
+    - bar: 36
+      ch: 1
+      data: "00\r"
+    - bar: 36
+      ch: 1
+      data: "00\r"
+    - bar: 36
+      ch: 1
+      data: "00\r"
+    - bar: 36
+      ch: 1
+      data: "00\r"
+    - bar: 36
+      ch: 1
+      data: "00\r"
+    - bar: 36
+      ch: 1
+      data: "00000000002C0000\r"
+    - bar: 36
+      ch: 15
+      data: "000000002O00000000002X00000000002S000000002V00002R0000002E000000\r"
+    - bar: 36
+      ch: 1
+      data: "00\r"
+    - bar: 36
+      ch: 1
+      data: "00\r"
+    - bar: 36
+      ch: 1
+      data: "00\r"
+    - bar: 36
+      ch: 19
+      data: "BC002VB7BC2YB8B6\r"
+    - bar: 36
+      ch: 11
+      data: "0600000006002A0000000600002S0000\r"
+    - bar: 36
+      ch: 13
+      data: "27000000BE002P002B00B92X00000047\r"
+    - bar: 36
+      ch: 12
+      data: "00000000280000004600000000002R00000000004600002T0000000047000000\r"
+    - bar: 36
+      ch: 14
+      data: "000000002Q00000000000000000000002900000000002T00000000000000000000000000000000000000002W0000000000000000000000002Q00000000000000\r"
+    - bar: 36
+      ch: 1
+      data: "00\r"
+    - bar: 36
+      ch: 1
+      data: "00\r"
+    - bar: 36
+      ch: 1
+      data: "00\r"
+    - bar: 37
+      ch: 1
+      data: "00\r"
+    - bar: 37
+      ch: 1
+      data: "00\r"
+    - bar: 37
+      ch: 14
+      data: "22000000000000000000002X0000000000002S00002U00002D00000000002Q00\r"
+    - bar: 37
+      ch: 18
+      data: "002N2900B82Y0000\r"
+    - bar: 37
+      ch: 1
+      data: "00\r"
+    - bar: 37
+      ch: 1
+      data: "00\r"
+    - bar: 37
+      ch: 1
+      data: "004A0049000000000000490000000000\r"
+    - bar: 37
+      ch: 1
+      data: "00\r"
+    - bar: 37
+      ch: 1
+      data: "00\r"
+    - bar: 37
+      ch: 1
+      data: "00000000002C0000\r"
+    - bar: 37
+      ch: 1
+      data: "00\r"
+    - bar: 37
+      ch: 1
+      data: "00\r"
+    - bar: 37
+      ch: 19
+      data: "2P002UB900BBBA2E\r"
+    - bar: 37
+      ch: 1
+      data: "00\r"
+    - bar: 37
+      ch: 1
+      data: "00\r"
+    - bar: 37
+      ch: 13
+      data: "000000002S0000000000000000000000000000002W00000000000000000000002B000000000000000000002V00000000000000002R0000000000000000000000\r"
+    - bar: 37
+      ch: 11
+      data: "0600062A2R062Q00\r"
+    - bar: 37
+      ch: 1
+      data: "00\r"
+    - bar: 37
+      ch: 1
+      data: "00\r"
+    - bar: 37
+      ch: 1
+      data: "00\r"
+    - bar: 37
+      ch: 15
+      data: "27000000000000002800000000000000BC000000000000002P000000000000000000000000000000002T000000002X000000000000000000B700000000000000\r"
+    - bar: 37
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 37
+      ch: 1
+      data: "00\r"
+    - bar: 37
+      ch: 12
+      data: "0000470000004600002V000000002Q000000000046002W00000000002S000000\r"
+    - bar: 37
+      ch: 4
+      data: "0M0N0O0P0Y0Z10111213141502030405060708090A0B0C0D0E0F0G0H0100000000000000000000000I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0100000000000000\r"
+    - bar: 38
+      ch: 1
+      data: "00\r"
+    - bar: 38
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 38
+      ch: 1
+      data: "00\r"
+    - bar: 38
+      ch: 11
+      data: "0600000000000000060000002A0000002Q0000000600002W0000000000000000\r"
+    - bar: 38
+      ch: 1
+      data: "00\r"
+    - bar: 38
+      ch: 1
+      data: "00\r"
+    - bar: 38
+      ch: 15
+      data: "000000002R000000000000000000000029000000000000002P00000000000000000000002R000000002X0000000000002D000000000000002R00000000000000\r"
+    - bar: 38
+      ch: 1
+      data: "00\r"
+    - bar: 38
+      ch: 18
+      data: "2PB92T00002Y2S00\r"
+    - bar: 38
+      ch: 4
+      data: "7M7N7O7P7Q7R7S7T7U7V7W7X7Y7Z808102030405060708090A0B0C0D0E0F0G0H01000000000000000I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0100000000000000\r"
+    - bar: 38
+      ch: 1
+      data: "00\r"
+    - bar: 38
+      ch: 1
+      data: "00\r"
+    - bar: 38
+      ch: 19
+      data: "2728B8BBBAB7BCB9\r"
+    - bar: 38
+      ch: 1
+      data: "00\r"
+    - bar: 38
+      ch: 1
+      data: "0000490000490000\r"
+    - bar: 38
+      ch: 1
+      data: "00\r"
+    - bar: 38
+      ch: 1
+      data: "00000000002C0000\r"
+    - bar: 38
+      ch: 1
+      data: "00\r"
+    - bar: 38
+      ch: 1
+      data: "00\r"
+    - bar: 38
+      ch: 14
+      data: "00000000000000004600002W0000000000000000002T000000002Q0000000000\r"
+    - bar: 38
+      ch: 12
+      data: "000000002O000000002U000000002S000000000046002V000000000000002S00\r"
+    - bar: 38
+      ch: 1
+      data: "00\r"
+    - bar: 38
+      ch: 1
+      data: "00\r"
+    - bar: 38
+      ch: 1
+      data: "00\r"
+    - bar: 38
+      ch: 13
+      data: "BC000000000000000000000000000000000000002V00000000000000000000002B000000000000000000002U0000000000000000000000002E00000000000000\r"
+    - bar: 39
+      ch: 13
+      data: "00002Q000000000000002U000000000000000000002X000000002S0000000000\r"
+    - bar: 39
+      ch: 18
+      data: "23000000000000002X000000B9000000B8000000BB00002V0000000000000000\r"
+    - bar: 39
+      ch: 1
+      data: "00\r"
+    - bar: 39
+      ch: 1
+      data: "00000000002C0000\r"
+    - bar: 39
+      ch: 1
+      data: "00\r"
+    - bar: 39
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 39
+      ch: 11
+      data: "0600062A2S06BA00\r"
+    - bar: 39
+      ch: 1
+      data: "00\r"
+    - bar: 39
+      ch: 1
+      data: "00\r"
+    - bar: 39
+      ch: 1
+      data: "00\r"
+    - bar: 39
+      ch: 12
+      data: "0000000000000000280000000000000000002T0000000000000000002R000000000000002Q000000002W0000000000002R000000000000002Q00000000000000\r"
+    - bar: 39
+      ch: 14
+      data: "270000000000000000000000000000002900000000002V00000000000000000000000000000000000000002T000000000000000000000000000000002R000000\r"
+    - bar: 39
+      ch: 1
+      data: "00\r"
+    - bar: 39
+      ch: 1
+      data: "00\r"
+    - bar: 39
+      ch: 19
+      data: "2P00BC002B2Y2DB7\r"
+    - bar: 39
+      ch: 1
+      data: "00\r"
+    - bar: 39
+      ch: 1
+      data: "00\r"
+    - bar: 39
+      ch: 1
+      data: "00\r"
+    - bar: 39
+      ch: 1
+      data: "00\r"
+    - bar: 39
+      ch: 1
+      data: "0000490000490000\r"
+    - bar: 39
+      ch: 1
+      data: "00\r"
+    - bar: 39
+      ch: 1
+      data: "00\r"
+    - bar: 39
+      ch: 4
+      data: "82838485868788898A8B8C8D8E8F8G8H02030405060708090A0B0C0D0E0F0G0H01000000000000000I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0100000000000000\r"
+    - bar: 39
+      ch: 15
+      data: "00002N0046002P000000462U00002E00\r"
+    - bar: 39
+      ch: 1
+      data: "00\r"
+    - bar: 40
+      ch: 1
+      data: "00000000002Y0000\r"
+    - bar: 40
+      ch: 1
+      data: "00\r"
+    - bar: 40
+      ch: 13
+      data: "2700000046002P000000462T002R0000\r"
+    - bar: 40
+      ch: 1
+      data: "00000000490000000000490000004A4A\r"
+    - bar: 40
+      ch: 1
+      data: "00\r"
+    - bar: 40
+      ch: 11
+      data: "0600000006002A00000006002Q000047\r"
+    - bar: 40
+      ch: 1
+      data: "00\r"
+    - bar: 40
+      ch: 1
+      data: "00\r"
+    - bar: 40
+      ch: 1
+      data: "00\r"
+    - bar: 40
+      ch: 1
+      data: "00\r"
+    - bar: 40
+      ch: 1
+      data: "00\r"
+    - bar: 40
+      ch: 1
+      data: "00\r"
+    - bar: 40
+      ch: 14
+      data: "000000002O000000BE00002U0000000000002S00002W00002D0000002E000000\r"
+    - bar: 40
+      ch: 1
+      data: "00\r"
+    - bar: 40
+      ch: 1
+      data: "00\r"
+    - bar: 40
+      ch: 18
+      data: "2P00000000000000000000000000000000002X0000000000000000002Q00000000000000000000000000002X0000000000000000000000002S00000000000000\r"
+    - bar: 40
+      ch: 1
+      data: "00\r"
+    - bar: 40
+      ch: 12
+      data: "000000000000000028000000000000002W0000000000000000000000000000002B00000000000000002V00000000000000000000000000004700000000000000\r"
+    - bar: 40
+      ch: 15
+      data: "00002S000000000000002T00000000002R0000002C00002U0000000000002Q00\r"
+    - bar: 40
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 40
+      ch: 4
+      data: "8I8J8K8L8M8N8O8P8Q8R8S8T8U8V8W8X02030405060708090A0B0C0D0E0F0G0H01000000000000000I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0Y0Z10110I0J0K0L\r"
+    - bar: 40
+      ch: 1
+      data: "00\r"
+    - bar: 40
+      ch: 1
+      data: "00\r"
+    - bar: 40
+      ch: 19
+      data: "BCBD29B7BCB9B8B6\r"
+    - bar: 40
+      ch: 1
+      data: "00\r"
+    - bar: 41
+      ch: 12
+      data: "00000000280000000000002T0000000000000000BB0000002D0000002R000000\r"
+    - bar: 41
+      ch: 11
+      data: "0000000000000000000000000000000000002W0000000000000000002S0000000000000000000000002U0000000000002S000000000000000000000000000000\r"
+    - bar: 41
+      ch: 19
+      data: "27000000BC000000002R002X0000B700\r"
+    - bar: 41
+      ch: 14
+      data: "00002R0000000000000000002A000000B80000002C00002T000000002E000000\r"
+    - bar: 41
+      ch: 1
+      data: "00\r"
+    - bar: 41
+      ch: 1
+      data: "00003V3T3W3T3U3T\r"
+    - bar: 41
+      ch: 1
+      data: "00\r"
+    - bar: 41
+      ch: 1
+      data: "00\r"
+    - bar: 41
+      ch: 4
+      data: "B601B701B801B901BA01BB01BC01BD01BE01BF01BG01BH01BI01BJ01BK01BL01B601B701B801B901BA01BB01BC01BD01BE01BF01BG01BH01BI01BJ01BK01BL01\r"
+    - bar: 41
+      ch: 1
+      data: "00\r"
+    - bar: 41
+      ch: 1
+      data: "00\r"
+    - bar: 41
+      ch: 15
+      data: "00000000000000002N0000000000000029000000000000002P000000000000002Q000000000000000000002W00000000000000002Q0000000000000000000000\r"
+    - bar: 41
+      ch: 1
+      data: "00\r"
+    - bar: 41
+      ch: 7
+      data: "4H014H014G014G014F014F014E014E014D014D014C014C014B014B014A014A014901490148014801470147014601460145014501440144014301430142014201\r"
+    - bar: 41
+      ch: 1
+      data: "00\r"
+    - bar: 41
+      ch: 1
+      data: "00\r"
+    - bar: 41
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 41
+      ch: 1
+      data: "00\r"
+    - bar: 41
+      ch: 13
+      data: "240000000000000000002X00000000002B000000002V00000000000000002S00\r"
+    - bar: 41
+      ch: 18
+      data: "2P002VB9002YBA00\r"
+    - bar: 42
+      ch: 14
+      data: "27000000000000002900002X00000000BA000000002U0000000000002E000000\r"
+    - bar: 42
+      ch: 1
+      data: "00\r"
+    - bar: 42
+      ch: 12
+      data: "002Q0000460000002B00462W0000002R\r"
+    - bar: 42
+      ch: 11
+      data: "0600000000000000060000002P000000000000000600002X00000000B9000000\r"
+    - bar: 42
+      ch: 1
+      data: "00\r"
+    - bar: 42
+      ch: 1
+      data: "3V3T3W3T3U3T3V3T\r"
+    - bar: 42
+      ch: 1
+      data: "00\r"
+    - bar: 42
+      ch: 1
+      data: "00\r"
+    - bar: 42
+      ch: 1
+      data: "00\r"
+    - bar: 42
+      ch: 1
+      data: "00\r"
+    - bar: 42
+      ch: 1
+      data: "00\r"
+    - bar: 42
+      ch: 1
+      data: "0000490000490000\r"
+    - bar: 42
+      ch: 4
+      data: "7M7N7O7P7Q7R7S7T7U7V7W7X7Y7Z808102030405060708090A0B0C0D0E0F0G0H01000000000000000I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0100000000000000\r"
+    - bar: 42
+      ch: 19
+      data: "00B92UBB2S2YBC00\r"
+    - bar: 42
+      ch: 15
+      data: "2P000000000000002O00000000000000000000002W0000000000000000000000000000002Q000000002T0000000000002D000000000000000000000000000000\r"
+    - bar: 42
+      ch: 1
+      data: "00\r"
+    - bar: 42
+      ch: 18
+      data: "BC00000000000000002V000000002R0000000000B70000002R0000002Q000000\r"
+    - bar: 42
+      ch: 1
+      data: "00\r"
+    - bar: 42
+      ch: 1
+      data: "00\r"
+    - bar: 42
+      ch: 1
+      data: "00000000002C0000\r"
+    - bar: 42
+      ch: 1
+      data: "00\r"
+    - bar: 42
+      ch: 1
+      data: "00\r"
+    - bar: 42
+      ch: 1
+      data: "00\r"
+    - bar: 42
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 42
+      ch: 13
+      data: "00000000000000002800000000000000B8000000000000002A0000000000000000000000000000000000002V00000000000000002S0000000000000000000000\r"
+    - bar: 43
+      ch: 12
+      data: "0000000028000000BC000000000000002R0000004600002W000000002S000000\r"
+    - bar: 43
+      ch: 1
+      data: "0000490000490000\r"
+    - bar: 43
+      ch: 1
+      data: "00\r"
+    - bar: 43
+      ch: 1
+      data: "00\r"
+    - bar: 43
+      ch: 1
+      data: "00\r"
+    - bar: 43
+      ch: 1
+      data: "00\r"
+    - bar: 43
+      ch: 1
+      data: "00\r"
+    - bar: 43
+      ch: 1
+      data: "00\r"
+    - bar: 43
+      ch: 1
+      data: "00\r"
+    - bar: 43
+      ch: 19
+      data: "2P002T2P00BB2Q2E\r"
+    - bar: 43
+      ch: 1
+      data: "00\r"
+    - bar: 43
+      ch: 1
+      data: "00\r"
+    - bar: 43
+      ch: 1
+      data: "00\r"
+    - bar: 43
+      ch: 4
+      data: "82838485868788898A8B8C8D8E8F8G8H02030405060708090A0B0C0D0E0F0G0H01000000000000000I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0100000000000000\r"
+    - bar: 43
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 43
+      ch: 1
+      data: "00000000002Y0000\r"
+    - bar: 43
+      ch: 11
+      data: "060006B9B8062D00\r"
+    - bar: 43
+      ch: 1
+      data: "00\r"
+    - bar: 43
+      ch: 1
+      data: "00003U3T3V3T3W3T\r"
+    - bar: 43
+      ch: 13
+      data: "2100000000000000460000002A00000000002S00002T000000002R0000000000\r"
+    - bar: 43
+      ch: 1
+      data: "00\r"
+    - bar: 43
+      ch: 14
+      data: "00002S00000000002900002W00000000000000002C002V0000000000B7000000\r"
+    - bar: 43
+      ch: 18
+      data: "00000000000000002N0000000000000000002U0000000000000000002Q00000000000000000000000000002U000000000000000000000000000000002Q000000\r"
+    - bar: 43
+      ch: 15
+      data: "27000000000000000000000000000000000000002V00000000000000000000002B00000000000000002X000000000000BA000000000000000000000000000000\r"
+    - bar: 43
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 4
+      data: "8I8J8K8L8M8N8O8P8Q8R8S8T8U8V8W8X02030405060708090A0B0C0D0E0F0G0H01000000000000000I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X020304050I0J0K0L\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 18
+      data: "000000002O000000002T0000B700000000000000B900002V0000000000002S00\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 1
+      data: "62\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 19
+      data: "2PBDBE2P0046B82R\r"
+    - bar: 44
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 44
+      ch: 11
+      data: "060000000600002S000006002S004700\r"
+    - bar: 44
+      ch: 14
+      data: "000000000000000000000000000000002900000000002V0000000000000000002B000000000000000000002T00000000000000002Q0000000000000047000000\r"
+    - bar: 44
+      ch: 1
+      data: "00000000002C0000\r"
+    - bar: 44
+      ch: 12
+      data: "000000002R0000000000000000000000460000000000000000000000000000002Q00000000000000002W0000000000002D000000000000002E00000000000000\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 15
+      data: "BC002800002U0000BC002Y2U00000000\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 13
+      data: "27000000000000002X0000002A00000000002R00002X000000000000B6000000\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 1
+      data: "00000000490000000000490000004A4A\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 44
+      ch: 1
+      data: "00\r"
+    - bar: 45
+      ch: 1
+      data: "00\r"
+    - bar: 45
+      ch: 1
+      data: "00\r"
+    - bar: 45
+      ch: 15
+      data: "27000000000000002W0000002P00000000002Q00002W00002D00000000000000\r"
+    - bar: 45
+      ch: 1
+      data: "00\r"
+    - bar: 45
+      ch: 1
+      data: "00\r"
+    - bar: 45
+      ch: 1
+      data: "00\r"
+    - bar: 45
+      ch: 1
+      data: "00000000002C0000\r"
+    - bar: 45
+      ch: 11
+      data: "0600000006002A0000000600002S0000\r"
+    - bar: 45
+      ch: 18
+      data: "000000002Q000000000000000000000000002X000000000000000000000000002S00000000000000002V000000000000BA000000000000000000000000000000\r"
+    - bar: 45
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 45
+      ch: 1
+      data: "00\r"
+    - bar: 45
+      ch: 14
+      data: "00000000000000002800000000000000000000002T00000000000000000000002B000000000000000000002X0000000000000000000000002E00000000000000\r"
+    - bar: 45
+      ch: 1
+      data: "00\r"
+    - bar: 45
+      ch: 4
+      data: "0M0N0O0P0Y0Z10111213141502030405060708090A0B0C0D0E0F0G0H0100000000000000000000000I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0100000000000000\r"
+    - bar: 45
+      ch: 1
+      data: "00\r"
+    - bar: 45
+      ch: 1
+      data: "00\r"
+    - bar: 45
+      ch: 1
+      data: "004A0049000000000000490000000000\r"
+    - bar: 45
+      ch: 1
+      data: "00003V3T3W3T3U3T\r"
+    - bar: 45
+      ch: 1
+      data: "00\r"
+    - bar: 45
+      ch: 13
+      data: "220000002900002R0000BB2T0000002R\r"
+    - bar: 45
+      ch: 1
+      data: "00\r"
+    - bar: 45
+      ch: 19
+      data: "2P2NBCB9002Y2R2Q\r"
+    - bar: 45
+      ch: 12
+      data: "00004700000046000000002U00000000B80000004600002U00000000B7000000\r"
+    - bar: 45
+      ch: 1
+      data: "00\r"
+    - bar: 45
+      ch: 1
+      data: "00\r"
+    - bar: 46
+      ch: 1
+      data: "00\r"
+    - bar: 46
+      ch: 1
+      data: "0000490000490000\r"
+    - bar: 46
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 46
+      ch: 11
+      data: "0600000000000000060000002A000000BA0000000600002T0000000000000000\r"
+    - bar: 46
+      ch: 14
+      data: "27000000000000002900002T0000000000002S00002V0000000000002E000000\r"
+    - bar: 46
+      ch: 13
+      data: "00000000000000000000000000000000B80000000000000000000000000000002B000000000000000000002W00000000000000002R0000000000000000000000\r"
+    - bar: 46
+      ch: 1
+      data: "00\r"
+    - bar: 46
+      ch: 12
+      data: "002S00004600002Q0000B72X0000B900\r"
+    - bar: 46
+      ch: 1
+      data: "00\r"
+    - bar: 46
+      ch: 1
+      data: "0000000000460000\r"
+    - bar: 46
+      ch: 1
+      data: "00\r"
+    - bar: 46
+      ch: 1
+      data: "00\r"
+    - bar: 46
+      ch: 1
+      data: "00\r"
+    - bar: 46
+      ch: 1
+      data: "3V3T3W3T3U3T3V3T\r"
+    - bar: 46
+      ch: 1
+      data: "00\r"
+    - bar: 46
+      ch: 1
+      data: "00\r"
+    - bar: 46
+      ch: 4
+      data: "8Y8Z909192939495969798999A9B9C9D02030405060708090A0B0C0D0E0F0G0H01000000000000000I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0100000000000000\r"
+    - bar: 46
+      ch: 1
+      data: "00\r"
+    - bar: 46
+      ch: 1
+      data: "00\r"
+    - bar: 46
+      ch: 18
+      data: "2P0000002O000000002W00002P000000000000002Y000000BC00000000000000\r"
+    - bar: 46
+      ch: 1
+      data: "00\r"
+    - bar: 46
+      ch: 1
+      data: "00\r"
+    - bar: 46
+      ch: 19
+      data: "00282VBB002C2Q2S\r"
+    - bar: 46
+      ch: 15
+      data: "BC00000000000000B900000000000000000000002X00000000000000000000002R00000000000000002U0000000000002D00000000000000000000002Q000000\r"
+    - bar: 46
+      ch: 1
+      data: "00\r"
+    - bar: 47
+      ch: 18
+      data: "2P00BC00B82YBA00\r"
+    - bar: 47
+      ch: 1
+      data: "00\r"
+    - bar: 47
+      ch: 1
+      data: "00\r"
+    - bar: 47
+      ch: 1
+      data: "00\r"
+    - bar: 47
+      ch: 1
+      data: "00\r"
+    - bar: 47
+      ch: 1
+      data: "00003U3T3V3T3W3T\r"
+    - bar: 47
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 47
+      ch: 1
+      data: "0000490000490000\r"
+    - bar: 47
+      ch: 1
+      data: "00\r"
+    - bar: 47
+      ch: 15
+      data: "0000280029002P000000062W00002E00\r"
+    - bar: 47
+      ch: 1
+      data: "00000000002C0000\r"
+    - bar: 47
+      ch: 1
+      data: "00\r"
+    - bar: 47
+      ch: 1
+      data: "00\r"
+    - bar: 47
+      ch: 1
+      data: "00\r"
+    - bar: 47
+      ch: 12
+      data: "00000000000000002N0000000000000000002V0000000000000000002S0000000000000000000000002T0000000000002D00000000000000000000002S000000\r"
+    - bar: 47
+      ch: 4
+      data: "7M7N7O7P7Q7R7S7T7U7V7W7X7Y7Z808102030405060708090A0B0C0D0E0F0G0H01000000000000000I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0100000000000000\r"
+    - bar: 47
+      ch: 19
+      data: "27002UB900BB2S00\r"
+    - bar: 47
+      ch: 1
+      data: "00\r"
+    - bar: 47
+      ch: 1
+      data: "00\r"
+    - bar: 47
+      ch: 14
+      data: "000000002R00000000000000000000004600000000002X000000000000000000000000002R0000000000002V000000000000000000000000B700000000000000\r"
+    - bar: 47
+      ch: 1
+      data: "00\r"
+    - bar: 47
+      ch: 1
+      data: "00\r"
+    - bar: 47
+      ch: 13
+      data: "250000000000000000002W00000000002Q000000002U000000002Q0000000000\r"
+    - bar: 47
+      ch: 1
+      data: "00\r"
+    - bar: 47
+      ch: 11
+      data: "0600000000000000060000002A0000002B0000004600002X000000002R000000\r"
+    - bar: 48
+      ch: 15
+      data: "004C00004F0000000000B90000004K00\r"
+    - bar: 48
+      ch: 1
+      data: "00\r"
+    - bar: 48
+      ch: 4
+      data: "7M810100828H01008I8X01008Y9C010002030405060708090A0B0C0D0E0F0G0H01000000000000000I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0Y0Z10110I0J0K0L\r"
+    - bar: 48
+      ch: 1
+      data: "00\r"
+    - bar: 48
+      ch: 12
+      data: "00000000460000000000460000000047\r"
+    - bar: 48
+      ch: 1
+      data: "00\r"
+    - bar: 48
+      ch: 13
+      data: "004D00004H0000B6\r"
+    - bar: 48
+      ch: 1
+      data: "00000000490000000000490000004A4A\r"
+    - bar: 48
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 48
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 48
+      ch: 1
+      data: "00\r"
+    - bar: 48
+      ch: 11
+      data: "0000004G00000000\r"
+    - bar: 48
+      ch: 1
+      data: "00\r"
+    - bar: 48
+      ch: 1
+      data: "00\r"
+    - bar: 48
+      ch: 1
+      data: "00\r"
+    - bar: 48
+      ch: 1
+      data: "00\r"
+    - bar: 48
+      ch: 19
+      data: "00BDBE00004I0047\r"
+    - bar: 48
+      ch: 1
+      data: "00\r"
+    - bar: 48
+      ch: 1
+      data: "00\r"
+    - bar: 48
+      ch: 1
+      data: "00\r"
+    - bar: 48
+      ch: 14
+      data: "4B00004E0000B70000000000B8000000\r"
+    - bar: 48
+      ch: 1
+      data: "00\r"
+    - bar: 48
+      ch: 1
+      data: "00\r"
+    - bar: 48
+      ch: 18
+      data: "BC00000000000000BC0000004J00004L\r"
+    - bar: 48
+      ch: 1
+      data: "00\r"
+    - bar: 49
+      ch: 1
+      data: "00\r"
+    - bar: 49
+      ch: 1
+      data: "00\r"
+    - bar: 49
+      ch: 1
+      data: "00\r"
+    - bar: 49
+      ch: 14
+      data: "07090B0D\r"
+    - bar: 49
+      ch: 1
+      data: "00\r"
+    - bar: 49
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 49
+      ch: 1
+      data: "8I8J8K8L8M8N8O8P\r"
+    - bar: 49
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 49
+      ch: 1
+      data: "9U9V9W9X9Y9ZA0A1\r"
+    - bar: 49
+      ch: 1
+      data: "00\r"
+    - bar: 49
+      ch: 4
+      data: "1U011U011U011U011V011V011V011V011W011W011W011W011X011X011X011X011Y011Y011Y011Y011Z011Z011Z011Z0120012001200120012101210121012101\r"
+    - bar: 49
+      ch: 1
+      data: "00\r"
+    - bar: 49
+      ch: 16
+      data: "3X\r"
+    - bar: 49
+      ch: 1
+      data: "0008000A000C000E\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 1
+      data: "62\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 14
+      data: "0F0H0J0L\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 1
+      data: "A2A3A4A5A6A7A8A9\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 1
+      data: "8Q8R8S8T8U8V8W8X\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 4
+      data: "22012201220122012301230123012301240124012401240125012501250125012601260126012601270127012701270128012801280128012901290129012901\r"
+    - bar: 50
+      ch: 1
+      data: "000G000I000K000M\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 50
+      ch: 1
+      data: "00\r"
+    - bar: 51
+      ch: 1
+      data: "AAABACADAEAFAGAH\r"
+    - bar: 51
+      ch: 4
+      data: "1U011U011U011U011V011V011V011V011W011W011W011W011X011X011X011X011Y011Y011Y011Y011Z011Z011Z011Z0120012001200120012101210121012101\r"
+    - bar: 51
+      ch: 1
+      data: "8Y8Z909192939495\r"
+    - bar: 51
+      ch: 1
+      data: "00\r"
+    - bar: 51
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 51
+      ch: 1
+      data: "00\r"
+    - bar: 51
+      ch: 1
+      data: "00\r"
+    - bar: 51
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 51
+      ch: 1
+      data: "000O000Q000S000U\r"
+    - bar: 51
+      ch: 1
+      data: "00\r"
+    - bar: 51
+      ch: 1
+      data: "00\r"
+    - bar: 51
+      ch: 14
+      data: "0N0P0R0T\r"
+    - bar: 51
+      ch: 1
+      data: "00\r"
+    - bar: 52
+      ch: 1
+      data: "00\r"
+    - bar: 52
+      ch: 1
+      data: "AIAJAKALAMANAOAP\r"
+    - bar: 52
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBMBNBOBPBQBRBSBT\r"
+    - bar: 52
+      ch: 1
+      data: "969798999A9B9C9D\r"
+    - bar: 52
+      ch: 1
+      data: "00\r"
+    - bar: 52
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 52
+      ch: 1
+      data: "00\r"
+    - bar: 52
+      ch: 1
+      data: "00\r"
+    - bar: 52
+      ch: 14
+      data: "0V000X000Z001112\r"
+    - bar: 52
+      ch: 1
+      data: "000W000Y00100000\r"
+    - bar: 52
+      ch: 1
+      data: "00\r"
+    - bar: 52
+      ch: 4
+      data: "22012201220122012301230123012301240124012401240125012501250125012601260126012601270127012701270128012801280128012901290129012901\r"
+    - bar: 52
+      ch: 1
+      data: "00\r"
+    - bar: 53
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBMBNBOBPBQBRBSBTBMBNBOBPBQBRBSBTBMBNBOBPBQBRBSBTBMBNBOBPBQBRBSBTBMBNBOBPBQBRBSBTBMBNBOBPBQBRBSBTBMBNBOBPBQBRBSBT\r"
+    - bar: 53
+      ch: 1
+      data: "AQARASATAUAVAWAX\r"
+    - bar: 53
+      ch: 14
+      data: "131415161718191A\r"
+    - bar: 53
+      ch: 4
+      data: "7M7N7O7P7Q7R7S7T82838485868788898I8J8K8L8M8N8O8P8Y8Z9091929394957U7V7W7X7Y7Z80818A8B8C8D8E8F8G8H8Q8R8S8T8U8V8W8X969798999A9B9C9D\r"
+    - bar: 53
+      ch: 18
+      data: "00009G00009J0000\r"
+    - bar: 53
+      ch: 1
+      data: "00\r"
+    - bar: 53
+      ch: 1
+      data: "00\r"
+    - bar: 53
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 53
+      ch: 12
+      data: "9E00009H00009K00\r"
+    - bar: 53
+      ch: 1
+      data: "00\r"
+    - bar: 53
+      ch: 1
+      data: "00\r"
+    - bar: 53
+      ch: 1
+      data: "00\r"
+    - bar: 53
+      ch: 1
+      data: "00\r"
+    - bar: 53
+      ch: 19
+      data: "009F00009I00009L\r"
+    - bar: 53
+      ch: 1
+      data: "00\r"
+    - bar: 53
+      ch: 1
+      data: "00\r"
+    - bar: 54
+      ch: 4
+      data: "7M7N7O7P7Q7R7S7T82838485868788898I8J8K8L8M8N8O8P8Y8Z9091929394957U7V7W7X7Y7Z80818A8B8C8D8E8F8G8H8Q8R8S8T8U8V8W8X969798999A9B9C9D\r"
+    - bar: 54
+      ch: 12
+      data: "009N00009Q00009T\r"
+    - bar: 54
+      ch: 1
+      data: "00\r"
+    - bar: 54
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 54
+      ch: 1
+      data: "00\r"
+    - bar: 54
+      ch: 1
+      data: "00\r"
+    - bar: 54
+      ch: 1
+      data: "AYAZB0B1B2B3B4B5\r"
+    - bar: 54
+      ch: 1
+      data: "00\r"
+    - bar: 54
+      ch: 1
+      data: "00\r"
+    - bar: 54
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBMBNBOBPBQBRBSBTBMBNBOBPBQBRBSBTBMBNBOBPBQBRBSBTBMBNBOBPBQBRBSBTBMBNBOBPBQBRBSBTBMBNBOBPBQBRBSBTBMBNBOBPBQBRBSBT\r"
+    - bar: 54
+      ch: 1
+      data: "00\r"
+    - bar: 54
+      ch: 1
+      data: "00\r"
+    - bar: 54
+      ch: 19
+      data: "00009O00009R0000\r"
+    - bar: 54
+      ch: 14
+      data: "1B1C1D1E1F1G1H1I\r"
+    - bar: 54
+      ch: 18
+      data: "9M00009P00009S00\r"
+    - bar: 54
+      ch: 1
+      data: "00\r"
+    - bar: 55
+      ch: 13
+      data: "000000005A5B005D5E0000005I000000\r"
+    - bar: 55
+      ch: 12
+      data: "000000000000000000005G5H005J5K00\r"
+    - bar: 55
+      ch: 7
+      data: "BMBNBOBPBQBRBSBT5E5F5G01363738013L3K3J012Q2R2S013Y3Z4001454647014S4T4U013R3S3T01585756012Q2R2S015E5F5G01363738013L3K3J012Q2R2S01\r"
+    - bar: 55
+      ch: 11
+      data: "57\r"
+    - bar: 55
+      ch: 4
+      data: "01\r"
+    - bar: 55
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 55
+      ch: 18
+      data: "0000000000000000000000000000005L\r"
+    - bar: 55
+      ch: 15
+      data: "0000005900005C00005F000000000000\r"
+    - bar: 55
+      ch: 19
+      data: "0058000000000000\r"
+    - bar: 56
+      ch: 1
+      data: "00\r"
+    - bar: 56
+      ch: 1
+      data: "00\r"
+    - bar: 56
+      ch: 1
+      data: "00\r"
+    - bar: 56
+      ch: 4
+      data: "2A012B012C012D012E012F012G012H012I012J012K012L012M012N012O012P01\r"
+    - bar: 56
+      ch: 1
+      data: "00\r"
+    - bar: 56
+      ch: 1
+      data: "00\r"
+    - bar: 56
+      ch: 1
+      data: "4U4V4W4X4Y4Z50515253545556000000\r"
+    - bar: 56
+      ch: 1
+      data: "00\r"
+    - bar: 56
+      ch: 1
+      data: "00\r"
+    - bar: 56
+      ch: 1
+      data: "00\r"
+    - bar: 56
+      ch: 14
+      data: "00005X00005X0000\r"
+    - bar: 56
+      ch: 1
+      data: "00\r"
+    - bar: 56
+      ch: 1
+      data: "00\r"
+    - bar: 56
+      ch: 12
+      data: "000000000000005V\r"
+    - bar: 56
+      ch: 1
+      data: "00\r"
+    - bar: 56
+      ch: 1
+      data: "00\r"
+    - bar: 56
+      ch: 13
+      data: "0000005W\r"
+    - bar: 56
+      ch: 1
+      data: "00\r"
+    - bar: 56
+      ch: 1
+      data: "00\r"
+    - bar: 56
+      ch: 1
+      data: "00\r"
+    - bar: 56
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 56
+      ch: 18
+      data: "005Y00005Y000000\r"
+    - bar: 56
+      ch: 1
+      data: "00\r"
+    - bar: 56
+      ch: 19
+      data: "5Z00005Z00000000\r"
+    - bar: 56
+      ch: 1
+      data: "00\r"
+    - bar: 56
+      ch: 1
+      data: "00\r"
+    - bar: 57
+      ch: 16
+      data: "3X\r"
+    - bar: 57
+      ch: 13
+      data: "00B8BABL\r"
+    - bar: 57
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 57
+      ch: 11
+      data: "1J1J1J1J\r"
+    - bar: 57
+      ch: 18
+      data: "BCBH00BC\r"
+    - bar: 57
+      ch: 12
+      data: "00BI00BK00B700BI\r"
+    - bar: 57
+      ch: 15
+      data: "00000000BJBG0000\r"
+    - bar: 57
+      ch: 19
+      data: "001K001K001K001K\r"
+    - bar: 57
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 57
+      ch: 14
+      data: "BLB900BB000000B9\r"
+    - bar: 58
+      ch: 19
+      data: "001K001K001K001K\r"
+    - bar: 58
+      ch: 15
+      data: "BHBB00BG000000BB\r"
+    - bar: 58
+      ch: 11
+      data: "1J1J1J1J\r"
+    - bar: 58
+      ch: 14
+      data: "0000BA00BLB90000\r"
+    - bar: 58
+      ch: 18
+      data: "00BJBCBH\r"
+    - bar: 58
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 58
+      ch: 13
+      data: "B80000B8\r"
+    - bar: 58
+      ch: 12
+      data: "00BK00B700BI00BK\r"
+    - bar: 58
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 59
+      ch: 19
+      data: "001K001K001K001K\r"
+    - bar: 59
+      ch: 15
+      data: "00000000BHBB0000\r"
+    - bar: 59
+      ch: 13
+      data: "00BLB8BA\r"
+    - bar: 59
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 59
+      ch: 14
+      data: "BABG00B9000000BG\r"
+    - bar: 59
+      ch: 11
+      data: "1J1J1J1J\r"
+    - bar: 59
+      ch: 18
+      data: "BJBC00BJ\r"
+    - bar: 59
+      ch: 12
+      data: "00B700BI00BK00B7\r"
+    - bar: 59
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 60
+      ch: 14
+      data: "000000B700000000\r"
+    - bar: 60
+      ch: 11
+      data: "1J001J001J001L1M\r"
+    - bar: 60
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 60
+      ch: 15
+      data: "BLBM0000BCB900BF\r"
+    - bar: 60
+      ch: 12
+      data: "000000BG00BI00B6\r"
+    - bar: 60
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 60
+      ch: 19
+      data: "001K001K001K0000\r"
+    - bar: 60
+      ch: 13
+      data: "BCBNBLB8\r"
+    - bar: 60
+      ch: 18
+      data: "00BDBE000000BH00\r"
+    - bar: 61
+      ch: 13
+      data: "0000002Z000037000000BG0031000038\r"
+    - bar: 61
+      ch: 19
+      data: "BL1K001K001KBL1K\r"
+    - bar: 61
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 61
+      ch: 12
+      data: "00002P00BH0000380000B70000003700\r"
+    - bar: 61
+      ch: 18
+      data: "BCBI31002F00BCBI\r"
+    - bar: 61
+      ch: 15
+      data: "00B900BKBJ2P00B9\r"
+    - bar: 61
+      ch: 14
+      data: "2F000000B800BB00BA00002Z00000000\r"
+    - bar: 61
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 61
+      ch: 11
+      data: "1J1J1J1J\r"
+    - bar: 61
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 62
+      ch: 18
+      data: "2F0000000000000030000000BG000000BC000000000000003300003600000000\r"
+    - bar: 62
+      ch: 11
+      data: "1J001J001JBI1JBK\r"
+    - bar: 62
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 62
+      ch: 19
+      data: "BH1K001KBL1K001K\r"
+    - bar: 62
+      ch: 14
+      data: "B800BK00BA0000380000002Z00350000\r"
+    - bar: 62
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 62
+      ch: 15
+      data: "00BBBJ37002PBHBB\r"
+    - bar: 62
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 62
+      ch: 13
+      data: "0000002Z000000002H00B900B8003700\r"
+    - bar: 62
+      ch: 12
+      data: "000000002P00000000000000B700000000002K00000000000034000000003800\r"
+    - bar: 63
+      ch: 11
+      data: "1J001N1O001R1S37\r"
+    - bar: 63
+      ch: 15
+      data: "00002P000000B9001P000000BA000038\r"
+    - bar: 63
+      ch: 13
+      data: "0000002Z00003700001Q00003100BG00\r"
+    - bar: 63
+      ch: 19
+      data: "BJ001K00000000002F00BK00001T0000\r"
+    - bar: 63
+      ch: 14
+      data: "BA00BG00BC00003800002P00BJ00B700\r"
+    - bar: 63
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 63
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBMBNBOBPBMBNBOBPBQBRBSBTBMBNBOBPBMBNBOBPBMBNBOBPBMBNBOBP\r"
+    - bar: 63
+      ch: 18
+      data: "2F0031BIBHBB001U\r"
+    - bar: 63
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 63
+      ch: 12
+      data: "0000B700BL000000B800002Z0000001V\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 1
+      data: "0000000000000000000000000000005U00000000000000000000000000000000\r"
+    - bar: 64
+      ch: 12
+      data: "0000000000002P0000000000000000000000BG0000000000000000000000000000000000003K00000000BF000000003A\r"
+    - bar: 64
+      ch: 14
+      data: "0000002Z0000B700002G002I003H003B\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 15
+      data: "000000BM0000BN0000000000BC0000BI0000BH003G003C00\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 13
+      data: "BC00000000000000000000000000000000000000000000000000000000003300000000000000000000000000000000000000002L00000000000000000000002K0000000000000000000000003I00000000000000000000000000000039000000\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 64
+      ch: 11
+      data: "000032002I2H3JB6\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 4
+      data: "01000000000000000000000000000000000000000000000000000000000000000000B701B801B901BA01BB01BC01BD01BE01BF01BG01BH01BI01BJ01BK01BL01\r"
+    - bar: 64
+      ch: 19
+      data: "2F000037BLB9B83D\r"
+    - bar: 64
+      ch: 18
+      data: "BL0000000000000000000000BD0000000000000000000000BE00000000000000000000000000000000003800000000000000000000000000002J00000000000000000000002L0000000000000000000000003F0000003E000000000000000000\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 64
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 64
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 1
+      data: "8A\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 12
+      data: "0000002Z003Q00380000002Z003Q0038\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 16
+      data: "3X\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 13
+      data: "003M00003P000000BA003N003P000000\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 19
+      data: "3L1K001K001K001K\r"
+    - bar: 65
+      ch: 1
+      data: "BLBIBHBKBJBGBLBI\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 65
+      ch: 15
+      data: "BC00003O00003R002F00B7003100B900\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 18
+      data: "2F003N003100BB003L00003O00003700\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 14
+      data: "0000B900B800003S003M0000BC00003S\r"
+    - bar: 65
+      ch: 11
+      data: "1J2P1J371J2P1J3R\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 65
+      ch: 1
+      data: "00\r"
+    - bar: 66
+      ch: 1
+      data: "00\r"
+    - bar: 66
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 66
+      ch: 1
+      data: "00\r"
+    - bar: 66
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 66
+      ch: 1
+      data: "00\r"
+    - bar: 66
+      ch: 1
+      data: "00\r"
+    - bar: 66
+      ch: 1
+      data: "00\r"
+    - bar: 66
+      ch: 12
+      data: "00003M0000002Z000000000000003S0000002J0000002Z00003400003R000000\r"
+    - bar: 66
+      ch: 11
+      data: "1J2P1J371J2P1J37\r"
+    - bar: 66
+      ch: 18
+      data: "003N30B72GB9B8BB\r"
+    - bar: 66
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 66
+      ch: 13
+      data: "3L0000003P003R00003M000000350038\r"
+    - bar: 66
+      ch: 14
+      data: "00000000BB000000BA00000000000000BC0000003N0000003P00003600000000\r"
+    - bar: 66
+      ch: 1
+      data: "BHBKBJBGBLBIBHBK\r"
+    - bar: 66
+      ch: 1
+      data: "00\r"
+    - bar: 66
+      ch: 19
+      data: "2F1K001K3L1K321K\r"
+    - bar: 66
+      ch: 1
+      data: "00\r"
+    - bar: 66
+      ch: 15
+      data: "B800003O003Q00380000003O003Q003S\r"
+    - bar: 66
+      ch: 1
+      data: "00\r"
+    - bar: 67
+      ch: 1
+      data: "00\r"
+    - bar: 67
+      ch: 15
+      data: "0000B70031000000B800003O003Q0000\r"
+    - bar: 67
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 67
+      ch: 12
+      data: "2F00002Z003Q00380000002Z0000B700\r"
+    - bar: 67
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 67
+      ch: 14
+      data: "BA00003O0000003S0000BB00BA00003S\r"
+    - bar: 67
+      ch: 11
+      data: "1J2P1J371J2P1J37\r"
+    - bar: 67
+      ch: 1
+      data: "00\r"
+    - bar: 67
+      ch: 1
+      data: "00\r"
+    - bar: 67
+      ch: 1
+      data: "00\r"
+    - bar: 67
+      ch: 1
+      data: "00\r"
+    - bar: 67
+      ch: 18
+      data: "3L003N0000003R00003M000031000038\r"
+    - bar: 67
+      ch: 1
+      data: "BJBGBLBIBHBKBJBG\r"
+    - bar: 67
+      ch: 13
+      data: "003M00003P00B9003L003N003P003R00\r"
+    - bar: 67
+      ch: 1
+      data: "00\r"
+    - bar: 67
+      ch: 19
+      data: "001KBC1K2F1K001K\r"
+    - bar: 67
+      ch: 1
+      data: "00\r"
+    - bar: 67
+      ch: 1
+      data: "00\r"
+    - bar: 67
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 68
+      ch: 11
+      data: "1J2P1J371J2G1L1M\r"
+    - bar: 68
+      ch: 19
+      data: "3L1K331K2H1K3J3D\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 1
+      data: "000000000000000000000000003Q0000\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 1
+      data: "0000000000000000000000000000003S\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 12
+      data: "0000000000003M00000000000000000000002Z00000000000000000000003200000000000000000000003800000000000000002K0000000000000000B9000000000000000000000000003K0000000000000000003R0000000000000000003A00\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 14
+      data: "00000000BD00000000003Q00000000003L00002L0000002K00003H0000003B00\r"
+    - bar: 68
+      ch: 15
+      data: "BC00000000000000003O0000000000000000B70000000000BC00000000000000002H0000B80000003G0000003C000000\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 1
+      data: "BLBMBNBGBLBIBHBF\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBMBNBOBPBQBRBSBT\r"
+    - bar: 68
+      ch: 1
+      data: "62\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 1
+      data: "00000000003N0000\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 18
+      data: "0000000000000000000000003N0000000000000000000000BE00000000000000000000000000000000003S00000000000000000000003M00000000000000002J00000000000000003P0000000000000000003F0000003E000000000000000000\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 68
+      ch: 13
+      data: "2F00000000000000000000003P00000000003R00000000000000002I00000000003O000000003I000000B60000003900\r"
+    - bar: 68
+      ch: 1
+      data: "00\r"
+    - bar: 69
+      ch: 19
+      data: "3L7F001K7I1K311K\r"
+    - bar: 69
+      ch: 12
+      data: "0000002Z003Q0038003M002Z00003700\r"
+    - bar: 69
+      ch: 1
+      data: "00\r"
+    - bar: 69
+      ch: 1
+      data: "00\r"
+    - bar: 69
+      ch: 1
+      data: "BLBIBHBKBJBGBLBI\r"
+    - bar: 69
+      ch: 1
+      data: "00\r"
+    - bar: 69
+      ch: 18
+      data: "2F00003O000037003L00003O00007L00\r"
+    - bar: 69
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 69
+      ch: 13
+      data: "00003N007G00003S00003N007K00003S\r"
+    - bar: 69
+      ch: 1
+      data: "00\r"
+    - bar: 69
+      ch: 4
+      data: "6A6B6C6D6E6F6G6H7M7N7O7P7Q7R7S7T6Q6R6S6T6U6V6W6X82838485868788891E1F1G1H1I1J1K1L8I8J8K8L8M8N8O8P9E9F9G9H9I9J9K9L8Y8Z909192939495\r"
+    - bar: 69
+      ch: 1
+      data: "BCB9B8BBBAB7BCB9\r"
+    - bar: 69
+      ch: 1
+      data: "00\r"
+    - bar: 69
+      ch: 1
+      data: "00\r"
+    - bar: 69
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 69
+      ch: 11
+      data: "1J2P1J001J001J3R\r"
+    - bar: 69
+      ch: 14
+      data: "003M000031003R0000002P003P000038\r"
+    - bar: 69
+      ch: 15
+      data: "7E001K003P007H002F007J00003Q0000\r"
+    - bar: 69
+      ch: 1
+      data: "00\r"
+    - bar: 70
+      ch: 12
+      data: "000000002P00000000003Q00000038000000000000002Z000034000037000000\r"
+    - bar: 70
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1\r"
+    - bar: 70
+      ch: 13
+      data: "003M003O00003R00003M003O00350038\r"
+    - bar: 70
+      ch: 1
+      data: "00\r"
+    - bar: 70
+      ch: 1
+      data: "00\r"
+    - bar: 70
+      ch: 1
+      data: "00\r"
+    - bar: 70
+      ch: 14
+      data: "0000000000002Z00000000007P0000003L0000003N0000003300003600000000\r"
+    - bar: 70
+      ch: 11
+      data: "1J3N1J371J2P1J3R\r"
+    - bar: 70
+      ch: 1
+      data: "00\r"
+    - bar: 70
+      ch: 1
+      data: "00\r"
+    - bar: 70
+      ch: 1
+      data: "00\r"
+    - bar: 70
+      ch: 4
+      data: "6A6B6C6D6E6F6G6H7M7N7O7P7Q7R7S7T6Q6R6S6T6U6V6W6X82838485868788891E1F1G1H1I1J1K1L8I8J8K8L8M8N8O8P9E9F9G9H9I9J9K9L8Y8Z909192939495\r"
+    - bar: 70
+      ch: 1
+      data: "00\r"
+    - bar: 70
+      ch: 1
+      data: "BHBKBJBGBLBIBHBK\r"
+    - bar: 70
+      ch: 1
+      data: "B8BBBAB7BCB9B8BB\r"
+    - bar: 70
+      ch: 15
+      data: "7M007N007O00003S002L00007S007T00\r"
+    - bar: 70
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 70
+      ch: 19
+      data: "2F0030002I1K3P1K\r"
+    - bar: 70
+      ch: 18
+      data: "3L001K003P001K007Q007R00003Q003S\r"
+    - bar: 71
+      ch: 1
+      data: "00\r"
+    - bar: 71
+      ch: 1
+      data: "00\r"
+    - bar: 71
+      ch: 14
+      data: "3L002P003P000038001Q003O003Q003S\r"
+    - bar: 71
+      ch: 1
+      data: "00\r"
+    - bar: 71
+      ch: 1
+      data: "00\r"
+    - bar: 71
+      ch: 12
+      data: "2F00002Z003Q003S003M0085001T0038\r"
+    - bar: 71
+      ch: 1
+      data: "00\r"
+    - bar: 71
+      ch: 1
+      data: "00\r"
+    - bar: 71
+      ch: 11
+      data: "1J003N001N001O001P001R001S001U1V\r"
+    - bar: 71
+      ch: 4
+      data: "6A6B6C6D929394957M7N7O7P9I9J9K9L6Q6R6S6T8M8N8O8P828384851I1J1K1L1E1F1G1H868788898I8J8K8L6U6V6W6X9E9F9G9H7Q7R7S7T8Y8Z90916E6F6G6H\r"
+    - bar: 71
+      ch: 13
+      data: "003M003O000037002F003N0031003700\r"
+    - bar: 71
+      ch: 1
+      data: "00\r"
+    - bar: 71
+      ch: 15
+      data: "007W7Y808284863R\r"
+    - bar: 71
+      ch: 1
+      data: "BAB7BCB9B8BBBAB7\r"
+    - bar: 71
+      ch: 7
+      data: "BMBNBOBPBQBRBSBTBUBVBWBXBYBZC0C1BMBNBOBPBQBRBSBTBMBNBOBPBQBRBSBTBMBNBOBPBMBNBOBPBMBNBOBPBQBRBSBTBMBNBOBPBMBNBOBPBMBNBOBPBMBNBOBP\r"
+    - bar: 71
+      ch: 19
+      data: "7U1K313R3L2P3P88\r"
+    - bar: 71
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 71
+      ch: 1
+      data: "BJBGBLBIBHBKBJBG\r"
+    - bar: 71
+      ch: 18
+      data: "007V007X007Z00810083002Z00870089\r"
+    - bar: 72
+      ch: 1
+      data: "4U4V4W4X4Y4Z50515253545556000000\r"
+    - bar: 72
+      ch: 1
+      data: "00\r"
+    - bar: 72
+      ch: 1
+      data: "00\r"
+    - bar: 72
+      ch: 12
+      data: "0000000000000000000000002P00000000000000000000003200000000000000000000003700000000000000000000000000002J00000000000000005X00000000000000000000003P0000000000000000003F0000003E000000000000000000\r"
+    - bar: 72
+      ch: 1
+      data: "0000000000000000000000000000005U00000000000000000000000000000000\r"
+    - bar: 72
+      ch: 1
+      data: "00\r"
+    - bar: 72
+      ch: 1
+      data: "00\r"
+    - bar: 72
+      ch: 1
+      data: "00\r"
+    - bar: 72
+      ch: 13
+      data: "2F00000000000000003O00000000000000000000003S00000000002H00000000000000005W0000003G0000003C000000\r"
+    - bar: 72
+      ch: 1
+      data: "00\r"
+    - bar: 72
+      ch: 1
+      data: "00\r"
+    - bar: 72
+      ch: 4
+      data: "2A012B012C012D012E012F012G012H012I012J012K012L012M012N012O012P01\r"
+    - bar: 72
+      ch: 1
+      data: "BCBDBEB7BCB9B8B6\r"
+    - bar: 72
+      ch: 1
+      data: "00\r"
+    - bar: 72
+      ch: 1
+      data: "00\r"
+    - bar: 72
+      ch: 19
+      data: "5Z00000000000000000000003P00000000005Z00000000000000000000002I00000000003J00000000005V000000003A\r"
+    - bar: 72
+      ch: 7
+      data: "01\r"
+    - bar: 72
+      ch: 1
+      data: "00\r"
+    - bar: 72
+      ch: 1
+      data: "00\r"
+    - bar: 72
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 72
+      ch: 1
+      data: "00000000000000000000003O00000000\r"
+    - bar: 72
+      ch: 1
+      data: "BLBMBNBGBLBIBHBF\r"
+    - bar: 72
+      ch: 11
+      data: "003M002Z003300002G003N00003Q3D00\r"
+    - bar: 72
+      ch: 18
+      data: "0000000000000000000000005Y00000000000000000000000000000000003Q00000000000000000000003800000000000000000000003M00000000000000002L000000000000000000003K0000000000000000000000000000003S0000000000\r"
+    - bar: 72
+      ch: 1
+      data: "00\r"
+    - bar: 72
+      ch: 1
+      data: "00\r"
+    - bar: 72
+      ch: 1
+      data: "00\r"
+    - bar: 72
+      ch: 1
+      data: "00\r"
+    - bar: 72
+      ch: 14
+      data: "000000003N000000000000003R0000003L00002K0000002J00003H0000003B00\r"
+    - bar: 72
+      ch: 1
+      data: "00\r"
+    - bar: 72
+      ch: 1
+      data: "00\r"
+    - bar: 72
+      ch: 15
+      data: "3L00000000000000000000005X00000000000000000000005Y00000000000000002G000000003I0000003R0000003900\r"
+    - bar: 73
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 73
+      ch: 1
+      data: "00\r"
+    - bar: 73
+      ch: 1
+      data: "00\r"
+    - bar: 73
+      ch: 1
+      data: "00\r"
+    - bar: 73
+      ch: 1
+      data: "00\r"
+    - bar: 73
+      ch: 15
+      data: "00000000003Q0000003M003O0000003S\r"
+    - bar: 73
+      ch: 1
+      data: "00610000\r"
+    - bar: 73
+      ch: 1
+      data: "0000BCB9B8BBBAB7\r"
+    - bar: 73
+      ch: 1
+      data: "00\r"
+    - bar: 73
+      ch: 1
+      data: "00\r"
+    - bar: 73
+      ch: 1
+      data: "003X0000\r"
+    - bar: 73
+      ch: 1
+      data: "00\r"
+    - bar: 73
+      ch: 1
+      data: "00\r"
+    - bar: 73
+      ch: 11
+      data: "00001J001J001J3R\r"
+    - bar: 73
+      ch: 1
+      data: "00\r"
+    - bar: 73
+      ch: 1
+      data: "00\r"
+    - bar: 73
+      ch: 4
+      data: "4I4J4K4L4M4N4O4P4Q4R4S4T4U4V4W4X6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P\r"
+    - bar: 73
+      ch: 1
+      data: "00\r"
+    - bar: 73
+      ch: 1
+      data: "00\r"
+    - bar: 73
+      ch: 1
+      data: "00\r"
+    - bar: 73
+      ch: 1
+      data: "00\r"
+    - bar: 73
+      ch: 1
+      data: "00003V3T3W3T3U3T\r"
+    - bar: 73
+      ch: 1
+      data: "00\r"
+    - bar: 73
+      ch: 1
+      data: "00\r"
+    - bar: 73
+      ch: 19
+      data: "0000003R2F1K3P00\r"
+    - bar: 73
+      ch: 1
+      data: "0000BLBIBHBKBJBG\r"
+    - bar: 73
+      ch: 1
+      data: "00\r"
+    - bar: 73
+      ch: 12
+      data: "0000000000001K0000002P00003Q0038\r"
+    - bar: 73
+      ch: 1
+      data: "00450045\r"
+    - bar: 73
+      ch: 1
+      data: "00\r"
+    - bar: 73
+      ch: 13
+      data: "00000000310000380000002Z00001K00\r"
+    - bar: 73
+      ch: 18
+      data: "000000003P00003S00003N0000003700\r"
+    - bar: 73
+      ch: 14
+      data: "000000373L003100\r"
+    - bar: 73
+      ch: 16
+      data: "73000000BRBQBO00BP00BO00BP00BO00\r"
+    - bar: 73
+      ch: 1
+      data: "00\r"
+    - bar: 74
+      ch: 1
+      data: "00450045\r"
+    - bar: 74
+      ch: 11
+      data: "1J1J1J1J\r"
+    - bar: 74
+      ch: 4
+      data: "6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P\r"
+    - bar: 74
+      ch: 1
+      data: "00\r"
+    - bar: 74
+      ch: 14
+      data: "2F00000000002Z0000000000370000002H00000000003O000000003600003S00\r"
+    - bar: 74
+      ch: 1
+      data: "00\r"
+    - bar: 74
+      ch: 1
+      data: "00\r"
+    - bar: 74
+      ch: 1
+      data: "BCB9B8BBBAB7BCB9\r"
+    - bar: 74
+      ch: 15
+      data: "00003N003P00003S00003N0000350038\r"
+    - bar: 74
+      ch: 13
+      data: "000000003000003800002P003P003700\r"
+    - bar: 74
+      ch: 1
+      data: "00\r"
+    - bar: 74
+      ch: 1
+      data: "00\r"
+    - bar: 74
+      ch: 1
+      data: "00\r"
+    - bar: 74
+      ch: 1
+      data: "BLBIBHBKBJBGBLBI\r"
+    - bar: 74
+      ch: 1
+      data: "3V3T3W3T3U3T3V3T\r"
+    - bar: 74
+      ch: 18
+      data: "00003M0000003O00000000003R00000000003M0000000000003400001K000000\r"
+    - bar: 74
+      ch: 12
+      data: "00001K00003Q0000002K002Z003Q0000\r"
+    - bar: 74
+      ch: 1
+      data: "00\r"
+    - bar: 74
+      ch: 16
+      data: "BPBOBPBOBPBOBPBO\r"
+    - bar: 74
+      ch: 1
+      data: "00\r"
+    - bar: 74
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 74
+      ch: 1
+      data: "00\r"
+    - bar: 74
+      ch: 1
+      data: "00\r"
+    - bar: 74
+      ch: 19
+      data: "3L2P001K3L1K323R\r"
+    - bar: 75
+      ch: 1
+      data: "00\r"
+    - bar: 75
+      ch: 18
+      data: "003M00003P00003800002P0000003R00\r"
+    - bar: 75
+      ch: 1
+      data: "00\r"
+    - bar: 75
+      ch: 1
+      data: "00\r"
+    - bar: 75
+      ch: 15
+      data: "00003N0000003700003M003O0000003S\r"
+    - bar: 75
+      ch: 13
+      data: "00002P00003Q00002F00002Z00003700\r"
+    - bar: 75
+      ch: 1
+      data: "00\r"
+    - bar: 75
+      ch: 1
+      data: "00\r"
+    - bar: 75
+      ch: 1
+      data: "00\r"
+    - bar: 75
+      ch: 14
+      data: "000000003100003S00003N003P000000\r"
+    - bar: 75
+      ch: 1
+      data: "00\r"
+    - bar: 75
+      ch: 19
+      data: "3L00003O00003R003L00000031000038\r"
+    - bar: 75
+      ch: 1
+      data: "00\r"
+    - bar: 75
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 75
+      ch: 1
+      data: "0000BCB9B8BBBAB7\r"
+    - bar: 75
+      ch: 1
+      data: "00450045\r"
+    - bar: 75
+      ch: 1
+      data: "00\r"
+    - bar: 75
+      ch: 16
+      data: "74000000BRBQBO00BP00BO00BP00BO00\r"
+    - bar: 75
+      ch: 12
+      data: "2F00002Z00001K0000001K00003Q0000\r"
+    - bar: 75
+      ch: 1
+      data: "00003U3T3V3T3W3T\r"
+    - bar: 75
+      ch: 1
+      data: "0000BLBIBHBKBJBG\r"
+    - bar: 75
+      ch: 4
+      data: "4Y4Z505152535455565758595A5B5C5D6Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z707172737475\r"
+    - bar: 75
+      ch: 11
+      data: "1W001J001J001J1K\r"
+    - bar: 75
+      ch: 1
+      data: "00\r"
+    - bar: 76
+      ch: 1
+      data: "00\r"
+    - bar: 76
+      ch: 15
+      data: "0000000000003N00000000000000003Q00000000000000000000002G00000000003O000000003I0000003D0000003900\r"
+    - bar: 76
+      ch: 1
+      data: "00\r"
+    - bar: 76
+      ch: 12
+      data: "0000000000000000000000001K00000000000000000000000000000000003200000000000000000000000000000000000000000000003M00000000000000002K00000000000000003P0000000000000000003F0000003E000000000000000000\r"
+    - bar: 76
+      ch: 1
+      data: "00\r"
+    - bar: 76
+      ch: 16
+      data: "BPBOBPBOBPBOBPBO\r"
+    - bar: 76
+      ch: 13
+      data: "0000003M00000000002Z00000000000000003700000000003L00000000000000002I0000000000003G0000003C000000\r"
+    - bar: 76
+      ch: 11
+      data: "1J0000001J001K001J002H001L001M3S\r"
+    - bar: 76
+      ch: 1
+      data: "BLBMBNBGBLBIBHBF\r"
+    - bar: 76
+      ch: 1
+      data: "00\r"
+    - bar: 76
+      ch: 1
+      data: "00\r"
+    - bar: 76
+      ch: 19
+      data: "00002P0033003R002I003N003J3Q0000\r"
+    - bar: 76
+      ch: 1
+      data: "00\r"
+    - bar: 76
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 76
+      ch: 1
+      data: "00\r"
+    - bar: 76
+      ch: 4
+      data: "6Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z707172737475\r"
+    - bar: 76
+      ch: 14
+      data: "2F000000000000003P00000000003S000000002J0000002L00003H0000003B00\r"
+    - bar: 76
+      ch: 1
+      data: "00\r"
+    - bar: 76
+      ch: 1
+      data: "00\r"
+    - bar: 76
+      ch: 1
+      data: "00450045\r"
+    - bar: 76
+      ch: 1
+      data: "00\r"
+    - bar: 76
+      ch: 1
+      data: "BCBDBEB7BCB9B8B6\r"
+    - bar: 76
+      ch: 18
+      data: "3L00000000000000000000000000000000003O00000000000000000000000000000000000000000000003800000000000000002L00000000000000001K000000000000000000000000003K0000000000000000003R0000000000000000003A00\r"
+    - bar: 76
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 77
+      ch: 12
+      data: "3L00002Z00001K0000001K0031000038\r"
+    - bar: 77
+      ch: 1
+      data: "00\r"
+    - bar: 77
+      ch: 15
+      data: "007500003P00003S00003N003P00003S\r"
+    - bar: 77
+      ch: 16
+      data: "00000000BRBQBO00BP00BO00BP00BO00\r"
+    - bar: 77
+      ch: 1
+      data: "00003V3T3W3T3U3T\r"
+    - bar: 77
+      ch: 1
+      data: "00\r"
+    - bar: 77
+      ch: 1
+      data: "00\r"
+    - bar: 77
+      ch: 11
+      data: "003N1J001J001J00\r"
+    - bar: 77
+      ch: 13
+      data: "1W002P0031000038003M0000003Q0000\r"
+    - bar: 77
+      ch: 1
+      data: "00450045\r"
+    - bar: 77
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 77
+      ch: 1
+      data: "00\r"
+    - bar: 77
+      ch: 18
+      data: "0000007500003R000000003O00003R00\r"
+    - bar: 77
+      ch: 1
+      data: "00\r"
+    - bar: 77
+      ch: 1
+      data: "2F\r"
+    - bar: 77
+      ch: 14
+      data: "003M003O000037002F00002Z00003700\r"
+    - bar: 77
+      ch: 1
+      data: "0000BLBIBHBKBJBG\r"
+    - bar: 77
+      ch: 1
+      data: "00\r"
+    - bar: 77
+      ch: 1
+      data: "0000BCB9B8BBBAB7\r"
+    - bar: 77
+      ch: 19
+      data: "75007500003Q00003L002P0000001K00\r"
+    - bar: 77
+      ch: 1
+      data: "00\r"
+    - bar: 77
+      ch: 1
+      data: "00\r"
+    - bar: 77
+      ch: 1
+      data: "00\r"
+    - bar: 77
+      ch: 4
+      data: "5E5F5G5H5I5J5K5L5M5N5O5P5Q5R5S5T6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P\r"
+    - bar: 78
+      ch: 1
+      data: "00\r"
+    - bar: 78
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 78
+      ch: 1
+      data: "00\r"
+    - bar: 78
+      ch: 13
+      data: "3L00002Z000000002G00002Z00003700\r"
+    - bar: 78
+      ch: 1
+      data: "00\r"
+    - bar: 78
+      ch: 11
+      data: "1J001J1K1J001J1K\r"
+    - bar: 78
+      ch: 19
+      data: "2F002P003P00003S00003N0033003R00\r"
+    - bar: 78
+      ch: 4
+      data: "6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P\r"
+    - bar: 78
+      ch: 12
+      data: "00001K000000003800001K00003Q0038\r"
+    - bar: 78
+      ch: 1
+      data: "00\r"
+    - bar: 78
+      ch: 1
+      data: "00\r"
+    - bar: 78
+      ch: 15
+      data: "00003N00003Q00003L002P0000350000\r"
+    - bar: 78
+      ch: 1
+      data: "00\r"
+    - bar: 78
+      ch: 1
+      data: "BCB9B8BBBAB7BCB9\r"
+    - bar: 78
+      ch: 14
+      data: "00003M0000000000300000003700000000002J00000000003P00003600000000\r"
+    - bar: 78
+      ch: 1
+      data: "00\r"
+    - bar: 78
+      ch: 1
+      data: "00450045\r"
+    - bar: 78
+      ch: 1
+      data: "00\r"
+    - bar: 78
+      ch: 16
+      data: "BPBOBPBOBPBOBPBO\r"
+    - bar: 78
+      ch: 18
+      data: "0000000000003O00000000003R00000000003M0000003O000034000000003S00\r"
+    - bar: 78
+      ch: 1
+      data: "00\r"
+    - bar: 78
+      ch: 1
+      data: "00\r"
+    - bar: 78
+      ch: 1
+      data: "BLBIBHBKBJBGBLBI\r"
+    - bar: 78
+      ch: 1
+      data: "3V3T3W3T3U3T3V3T\r"
+    - bar: 79
+      ch: 15
+      data: "3L0000003100003S00002P00003Q003S\r"
+    - bar: 79
+      ch: 1
+      data: "00\r"
+    - bar: 79
+      ch: 1
+      data: "00\r"
+    - bar: 79
+      ch: 1
+      data: "00\r"
+    - bar: 79
+      ch: 18
+      data: "0000003O00003R00003M00003P003R00\r"
+    - bar: 79
+      ch: 19
+      data: "00003N003P0000003L003N0000000038\r"
+    - bar: 79
+      ch: 1
+      data: "00450045\r"
+    - bar: 79
+      ch: 4
+      data: "5U5V5W5X5Y5Z606162636465666768696Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z707172737475\r"
+    - bar: 79
+      ch: 1
+      data: "00\r"
+    - bar: 79
+      ch: 16
+      data: "00000000BRBQBO00BP00BO00BP00BO00\r"
+    - bar: 79
+      ch: 11
+      data: "1W001W1W1W1W1W1W\r"
+    - bar: 79
+      ch: 1
+      data: "00\r"
+    - bar: 79
+      ch: 1
+      data: "0000BLBIBHBKBJBG\r"
+    - bar: 79
+      ch: 1
+      data: "00\r"
+    - bar: 79
+      ch: 12
+      data: "00002P00000000380000002Z001W001W\r"
+    - bar: 79
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 79
+      ch: 13
+      data: "2F00002Z00003700001W000031000000\r"
+    - bar: 79
+      ch: 14
+      data: "003M0000003Q00002F00003O00003700\r"
+    - bar: 79
+      ch: 1
+      data: "0000BCB9B8BBBAB7\r"
+    - bar: 79
+      ch: 1
+      data: "00003U3T3V3T3W3T\r"
+    - bar: 79
+      ch: 1
+      data: "00\r"
+    - bar: 79
+      ch: 1
+      data: "00\r"
+    - bar: 79
+      ch: 1
+      data: "00\r"
+    - bar: 79
+      ch: 1
+      data: "76\r"
+    - bar: 80
+      ch: 16
+      data: "BPBOBPBOBPBOBPBO\r"
+    - bar: 80
+      ch: 18
+      data: "3L00000000000000000000000000000000000000000000003P00000000000000000000000000000000003S00000000000000000000000000000000000000002J00000000000000003J0000000000000000003F00000000000000000039000000\r"
+    - bar: 80
+      ch: 4
+      data: "6Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z707172737475\r"
+    - bar: 80
+      ch: 1
+      data: "00\r"
+    - bar: 80
+      ch: 1
+      data: "00\r"
+    - bar: 80
+      ch: 13
+      data: "2F00000000000000000000000000000000000000003800000000002I00000000003O000000003I000000003E00000000\r"
+    - bar: 80
+      ch: 1
+      data: "4B4C4D4E4F004G004H004I004J004K4L\r"
+    - bar: 80
+      ch: 1
+      data: "00\r"
+    - bar: 80
+      ch: 1
+      data: "00\r"
+    - bar: 80
+      ch: 1
+      data: "00\r"
+    - bar: 80
+      ch: 1
+      data: "00\r"
+    - bar: 80
+      ch: 19
+      data: "0000000000000000003O00000000000000003R00000000000000003M00000000002H00000000003Q00003R000000003A\r"
+    - bar: 80
+      ch: 1
+      data: "BCBDBEB7BCB9B8B6\r"
+    - bar: 80
+      ch: 15
+      data: "0000000000003N00000000000000003Q00000000000000003L00000000002G00000000003P0000003G000000003B0000\r"
+    - bar: 80
+      ch: 1
+      data: "00\r"
+    - bar: 80
+      ch: 11
+      data: "003M0000320000002H003N001W001W3S\r"
+    - bar: 80
+      ch: 1
+      data: "00\r"
+    - bar: 80
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 80
+      ch: 1
+      data: "0000000000000000000000000000005U00000000000000000000000000000000\r"
+    - bar: 80
+      ch: 1
+      data: "5Z5Y5X5Z5Y5X5W5V\r"
+    - bar: 80
+      ch: 1
+      data: "00000000000000005M5N5O5P5Q5R5S5T\r"
+    - bar: 80
+      ch: 1
+      data: "00\r"
+    - bar: 80
+      ch: 1
+      data: "00\r"
+    - bar: 80
+      ch: 1
+      data: "00\r"
+    - bar: 80
+      ch: 1
+      data: "00\r"
+    - bar: 80
+      ch: 1
+      data: "BLBMBNBGBLBIBHBF\r"
+    - bar: 80
+      ch: 14
+      data: "0000000000000000000000000000000000002Z00000000000000000000000000000000003700000000000000000000000000000000000000002L00000000000000000000000000000000000000003H0000000000000000003C00000000000000\r"
+    - bar: 80
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 80
+      ch: 1
+      data: "00\r"
+    - bar: 80
+      ch: 1
+      data: "00\r"
+    - bar: 80
+      ch: 12
+      data: "0000000000000000000000002P00000000000000000000000000000000003300000000000000000000000000000000000000002K00000000000000000000000000000000002K000000003K0000000000000000003D0000000000000000000000\r"
+    - bar: 80
+      ch: 1
+      data: "00\r"
+    - bar: 80
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 4
+      data: "2Q2R2S2T2U2V2W2X2Y2Z3031323334356A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P\r"
+    - bar: 81
+      ch: 1
+      data: "60\r"
+    - bar: 81
+      ch: 11
+      data: "000000001J001K001J002P00BA000038\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 1
+      data: "00450045\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 1
+      data: "0000BLBIBHBKBJBG\r"
+    - bar: 81
+      ch: 12
+      data: "00000000003Q003800001K0031001K00\r"
+    - bar: 81
+      ch: 18
+      data: "0000BVBSBTBSBTBS\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 19
+      data: "0000BCB93LBB1JB7\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 16
+      data: "733X0000\r"
+    - bar: 81
+      ch: 1
+      data: "00003V3T3W3T3U3T\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 13
+      data: "00000000310037002F00002Z003Q003S\r"
+    - bar: 81
+      ch: 15
+      data: "0000000000BU003S003M003O00003R00\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 81
+      ch: 14
+      data: "00003P3RB83N3P37\r"
+    - bar: 81
+      ch: 1
+      data: "00\r"
+    - bar: 82
+      ch: 1
+      data: "00\r"
+    - bar: 82
+      ch: 1
+      data: "00\r"
+    - bar: 82
+      ch: 1
+      data: "00\r"
+    - bar: 82
+      ch: 14
+      data: "BC00000000003O0000003Q0000003S0000003M0000003O000034003600003S00\r"
+    - bar: 82
+      ch: 1
+      data: "00\r"
+    - bar: 82
+      ch: 4
+      data: "6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P\r"
+    - bar: 82
+      ch: 1
+      data: "00450045\r"
+    - bar: 82
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 82
+      ch: 19
+      data: "3LB93PBBBAB7BCB9\r"
+    - bar: 82
+      ch: 1
+      data: "00\r"
+    - bar: 82
+      ch: 1
+      data: "00\r"
+    - bar: 82
+      ch: 1
+      data: "3V3T3W3T3U3T3V3T\r"
+    - bar: 82
+      ch: 11
+      data: "003M002Z000037001J003N001J001K00\r"
+    - bar: 82
+      ch: 1
+      data: "00\r"
+    - bar: 82
+      ch: 12
+      data: "1J001K001J001K003L001K00BT350038\r"
+    - bar: 82
+      ch: 1
+      data: "00\r"
+    - bar: 82
+      ch: 15
+      data: "2F3NB8BSBTBS3P3R\r"
+    - bar: 82
+      ch: 13
+      data: "002P303R2I2P3237\r"
+    - bar: 82
+      ch: 1
+      data: "00\r"
+    - bar: 82
+      ch: 18
+      data: "BT00BS00BT000038002L002Z003QBS00\r"
+    - bar: 82
+      ch: 1
+      data: "BLBIBHBKBJBGBLBI\r"
+    - bar: 82
+      ch: 1
+      data: "00\r"
+    - bar: 82
+      ch: 1
+      data: "00\r"
+    - bar: 83
+      ch: 1
+      data: "0000BLBIBHBKBJBG\r"
+    - bar: 83
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 83
+      ch: 14
+      data: "0000003O003Q0038003M002Z003Q003S\r"
+    - bar: 83
+      ch: 4
+      data: "363738393A3B3C3D3E3F3G3H3I3J3K3L6Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z707172737475\r"
+    - bar: 83
+      ch: 16
+      data: "74\r"
+    - bar: 83
+      ch: 1
+      data: "00\r"
+    - bar: 83
+      ch: 1
+      data: "00\r"
+    - bar: 83
+      ch: 1
+      data: "00\r"
+    - bar: 83
+      ch: 12
+      data: "002P3P1KB83NBA1K\r"
+    - bar: 83
+      ch: 18
+      data: "003M002Z00BU003S0000003O0000BS00\r"
+    - bar: 83
+      ch: 1
+      data: "00003U3T3V3T3W3T\r"
+    - bar: 83
+      ch: 1
+      data: "00\r"
+    - bar: 83
+      ch: 1
+      data: "00\r"
+    - bar: 83
+      ch: 13
+      data: "2F0031372F2P3137\r"
+    - bar: 83
+      ch: 1
+      data: "00\r"
+    - bar: 83
+      ch: 15
+      data: "003NBVBSBTBB3PB7\r"
+    - bar: 83
+      ch: 1
+      data: "00\r"
+    - bar: 83
+      ch: 1
+      data: "00\r"
+    - bar: 83
+      ch: 1
+      data: "00\r"
+    - bar: 83
+      ch: 11
+      data: "1W001J3R1J1K1J3R\r"
+    - bar: 83
+      ch: 1
+      data: "00\r"
+    - bar: 83
+      ch: 19
+      data: "3L000000BC00B9003L00BS00BT000038\r"
+    - bar: 83
+      ch: 1
+      data: "00450045\r"
+    - bar: 83
+      ch: 1
+      data: "00\r"
+    - bar: 84
+      ch: 1
+      data: "00\r"
+    - bar: 84
+      ch: 1
+      data: "00\r"
+    - bar: 84
+      ch: 1
+      data: "00\r"
+    - bar: 84
+      ch: 1
+      data: "62\r"
+    - bar: 84
+      ch: 1
+      data: "BLBMBNBGBLBIBHBF\r"
+    - bar: 84
+      ch: 15
+      data: "3L00000000003N00000000003P00000000001K00000000003L00000000003N0000000000003K000000001M00003B0000\r"
+    - bar: 84
+      ch: 1
+      data: "00\r"
+    - bar: 84
+      ch: 1
+      data: "0000000000000000000000000000005U00000000000000000000000000000000\r"
+    - bar: 84
+      ch: 14
+      data: "0000000000000000000000002P0000000000000000000000BE00000000000000000000003R00000000000000000000002G00000000000000002K00000000000000000000002J0000000000003I00000000000000000000003C00000000000000\r"
+    - bar: 84
+      ch: 1
+      data: "00\r"
+    - bar: 84
+      ch: 1
+      data: "00\r"
+    - bar: 84
+      ch: 1
+      data: "00\r"
+    - bar: 84
+      ch: 1
+      data: "00000000BCB9B8B6\r"
+    - bar: 84
+      ch: 13
+      data: "2F00000000001K00000000003300000000003700000000000000002H00000000002G0000BT00003H0000003E00000000\r"
+    - bar: 84
+      ch: 12
+      data: "BC00000000000000000000000000000000002Z00000000000000000000003200000000000000000000003800000000000000002J00000000000000000000002L00000000000000003P000000000000003G0000003D0000000000000000000000\r"
+    - bar: 84
+      ch: 18
+      data: "BT0000BS0000BT0000BS0000BT0000BS00003J0000BS0039\r"
+    - bar: 84
+      ch: 1
+      data: "00\r"
+    - bar: 84
+      ch: 1
+      data: "00\r"
+    - bar: 84
+      ch: 1
+      data: "00\r"
+    - bar: 84
+      ch: 1
+      data: "00\r"
+    - bar: 84
+      ch: 1
+      data: "00\r"
+    - bar: 84
+      ch: 1
+      data: "00\r"
+    - bar: 84
+      ch: 1
+      data: "00\r"
+    - bar: 84
+      ch: 1
+      data: "00\r"
+    - bar: 84
+      ch: 1
+      data: "00450045\r"
+    - bar: 84
+      ch: 1
+      data: "00\r"
+    - bar: 84
+      ch: 1
+      data: "00\r"
+    - bar: 84
+      ch: 19
+      data: "0000003M00000000003O00000000003Q00000000003S00000000003M00000000003O00000000003Q000000000000003A\r"
+    - bar: 84
+      ch: 1
+      data: "00000000001K003R\r"
+    - bar: 84
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 84
+      ch: 11
+      data: "1J0000000000BD00000000001J0000000000B700000000001J00000000002I00000000001L000000003F0000003S0000\r"
+    - bar: 84
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 84
+      ch: 4
+      data: "6Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z707172737475\r"
+    - bar: 84
+      ch: 1
+      data: "00\r"
+    - bar: 84
+      ch: 1
+      data: "00\r"
+    - bar: 85
+      ch: 1
+      data: "00\r"
+    - bar: 85
+      ch: 16
+      data: "3Y3Z40413X0000000000000000000000\r"
+    - bar: 85
+      ch: 18
+      data: "0075002Z00BU0000BT00003O0000BS00\r"
+    - bar: 85
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 85
+      ch: 1
+      data: "003P0000\r"
+    - bar: 85
+      ch: 15
+      data: "003M003O00003R003L00BS003P003700\r"
+    - bar: 85
+      ch: 12
+      data: "2F2PBV1K2FBB31B7\r"
+    - bar: 85
+      ch: 1
+      data: "0000BLBIBHBKBJBG\r"
+    - bar: 85
+      ch: 14
+      data: "75007575003Q003S00003N00BA000038\r"
+    - bar: 85
+      ch: 13
+      data: "3L003N0031000038003M002Z003Q003S\r"
+    - bar: 85
+      ch: 1
+      data: "00\r"
+    - bar: 85
+      ch: 1
+      data: "0000BCB900000000\r"
+    - bar: 85
+      ch: 1
+      data: "00\r"
+    - bar: 85
+      ch: 1
+      data: "00003V3T3W3T3U3T\r"
+    - bar: 85
+      ch: 4
+      data: "3M3N3O3P3Q3R3S3T3U3V3W3X3Y3Z40416A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P\r"
+    - bar: 85
+      ch: 19
+      data: "001X001X0000BS00B8002P00BT003R00\r"
+    - bar: 85
+      ch: 1
+      data: "00\r"
+    - bar: 85
+      ch: 1
+      data: "00\r"
+    - bar: 85
+      ch: 1
+      data: "00450045\r"
+    - bar: 85
+      ch: 11
+      data: "1X1X1J371J1K1J1K\r"
+    - bar: 85
+      ch: 1
+      data: "00\r"
+    - bar: 85
+      ch: 1
+      data: "00\r"
+    - bar: 85
+      ch: 1
+      data: "00\r"
+    - bar: 85
+      ch: 1
+      data: "00\r"
+    - bar: 86
+      ch: 1
+      data: "00450045\r"
+    - bar: 86
+      ch: 1
+      data: "00\r"
+    - bar: 86
+      ch: 1
+      data: "00\r"
+    - bar: 86
+      ch: 15
+      data: "3L0000003N0000003P0000003R0000002H0000002P0000003300003600003800\r"
+    - bar: 86
+      ch: 19
+      data: "BCB9B8BBBAB7BCB9\r"
+    - bar: 86
+      ch: 1
+      data: "00\r"
+    - bar: 86
+      ch: 1
+      data: "00\r"
+    - bar: 86
+      ch: 14
+      data: "003M003O000037003L003N003P3Q003S\r"
+    - bar: 86
+      ch: 1
+      data: "00\r"
+    - bar: 86
+      ch: 1
+      data: "00\r"
+    - bar: 86
+      ch: 1
+      data: "00\r"
+    - bar: 86
+      ch: 12
+      data: "2F1K1J1K1J1K1J1K\r"
+    - bar: 86
+      ch: 18
+      data: "BTBSBTBSBTBSBTBS\r"
+    - bar: 86
+      ch: 1
+      data: "00\r"
+    - bar: 86
+      ch: 4
+      data: "6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P\r"
+    - bar: 86
+      ch: 1
+      data: "00\r"
+    - bar: 86
+      ch: 11
+      data: "1J00000000002Z0000003Q000000380000003M0000003O00003400003R000000\r"
+    - bar: 86
+      ch: 1
+      data: "00\r"
+    - bar: 86
+      ch: 1
+      data: "BLBIBHBKBJBGBLBI\r"
+    - bar: 86
+      ch: 1
+      data: "3V3T3W3T3U3T3V3T\r"
+    - bar: 86
+      ch: 13
+      data: "00002P003000003S002K002Z00353700\r"
+    - bar: 86
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 86
+      ch: 1
+      data: "00\r"
+    - bar: 87
+      ch: 1
+      data: "00003U3T3V3T3W3T\r"
+    - bar: 87
+      ch: 19
+      data: "4M00BC4P2FBB0037\r"
+    - bar: 87
+      ch: 18
+      data: "00004N0000BU0000BT000000BT004T00\r"
+    - bar: 87
+      ch: 12
+      data: "2F00000031000000B800002Z0000B700\r"
+    - bar: 87
+      ch: 15
+      data: "0000BVBS00BS4RBS\r"
+    - bar: 87
+      ch: 1
+      data: "00\r"
+    - bar: 87
+      ch: 14
+      data: "00002P004O00003800000000BA000038\r"
+    - bar: 87
+      ch: 1
+      data: "00\r"
+    - bar: 87
+      ch: 11
+      data: "000000374Q003100\r"
+    - bar: 87
+      ch: 1
+      data: "00\r"
+    - bar: 87
+      ch: 1
+      data: "00\r"
+    - bar: 87
+      ch: 13
+      data: "0000002Z0000B90000002P00004S0000\r"
+    - bar: 87
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 87
+      ch: 1
+      data: "00\r"
+    - bar: 87
+      ch: 1
+      data: "7700000000000000000000000078000000000000000000007900000000000000\r"
+    - bar: 87
+      ch: 1
+      data: "0000BLBIBHBKBJBG\r"
+    - bar: 87
+      ch: 1
+      data: "00\r"
+    - bar: 87
+      ch: 4
+      data: "42434445464748494A4B4C4D4E4F4G4H6Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z707172737475\r"
+    - bar: 87
+      ch: 1
+      data: "00\r"
+    - bar: 88
+      ch: 1
+      data: "0000000000000000000000000000005U00000000000000000000000000000000\r"
+    - bar: 88
+      ch: 14
+      data: "00004V0000000000BE0000000000000052000000002K000056003H0000003B00\r"
+    - bar: 88
+      ch: 18
+      data: "BT00000000000000000000000000000000004X00000000000000000000004Z00000000000000000000003800000000000000000000000000000000005400000000000000002L0000000000000000000000003F0000003E000000000000000000\r"
+    - bar: 88
+      ch: 1
+      data: "00\r"
+    - bar: 88
+      ch: 1
+      data: "BLBMBNBGBLBIBHBF\r"
+    - bar: 88
+      ch: 12
+      data: "0000000000002P0000000000000000330000000000510000000000530000000000550000003K0000000000000000003A\r"
+    - bar: 88
+      ch: 19
+      data: "4U000000BD000000BT000000B7000000BC00002J000000003J0000003D000000\r"
+    - bar: 88
+      ch: 1
+      data: "00\r"
+    - bar: 88
+      ch: 1
+      data: "00\r"
+    - bar: 88
+      ch: 15
+      data: "000000000000BS00000000004Y0000000000BS00000000000000002G00000000002I0000000000003G0000003C000000\r"
+    - bar: 88
+      ch: 1
+      data: "00\r"
+    - bar: 88
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 88
+      ch: 13
+      data: "2F00000000000000000000000000000000002Z00000000000000000000000000000000003700000000000000000000000000002L00000000000000002H0000000000000000000000000000003I00000000000000000000000000000039000000\r"
+    - bar: 88
+      ch: 1
+      data: "00\r"
+    - bar: 88
+      ch: 1
+      data: "00\r"
+    - bar: 88
+      ch: 1
+      data: "00\r"
+    - bar: 88
+      ch: 1
+      data: "00\r"
+    - bar: 88
+      ch: 1
+      data: "000000000000000000000000000000007A00000000007B000000007C0000007D\r"
+    - bar: 88
+      ch: 1
+      data: "00\r"
+    - bar: 88
+      ch: 1
+      data: "00\r"
+    - bar: 88
+      ch: 1
+      data: "00\r"
+    - bar: 88
+      ch: 11
+      data: "BC4W32502IB9B8B6\r"
+    - bar: 88
+      ch: 1
+      data: "00\r"
+    - bar: 88
+      ch: 1
+      data: "00\r"
+    - bar: 88
+      ch: 1
+      data: "00\r"
+    - bar: 88
+      ch: 1
+      data: "00\r"
+    - bar: 88
+      ch: 1
+      data: "00\r"
+    - bar: 88
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 88
+      ch: 1
+      data: "00\r"
+    - bar: 88
+      ch: 1
+      data: "00\r"
+    - bar: 88
+      ch: 4
+      data: "6Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z7071727374756Q6R6S6T6U6V6W6X6Y6Z707172737475\r"
+    - bar: 89
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 89
+      ch: 14
+      data: "0064002Z00001K00003M000031003700\r"
+    - bar: 89
+      ch: 16
+      data: "3X\r"
+    - bar: 89
+      ch: 1
+      data: "00\r"
+    - bar: 89
+      ch: 1
+      data: "BLBIBHBKBJBGBLBI\r"
+    - bar: 89
+      ch: 1
+      data: "00\r"
+    - bar: 89
+      ch: 1
+      data: "00\r"
+    - bar: 89
+      ch: 1
+      data: "BCB9B8BBBAB7BCB9\r"
+    - bar: 89
+      ch: 1
+      data: "00\r"
+    - bar: 89
+      ch: 1
+      data: "00\r"
+    - bar: 89
+      ch: 1
+      data: "00\r"
+    - bar: 89
+      ch: 1
+      data: "00\r"
+    - bar: 89
+      ch: 1
+      data: "00\r"
+    - bar: 89
+      ch: 1
+      data: "00450045\r"
+    - bar: 89
+      ch: 13
+      data: "00001K003100003800002P00003Q0038\r"
+    - bar: 89
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 89
+      ch: 1
+      data: "00\r"
+    - bar: 89
+      ch: 15
+      data: "2F002P003P0037002F00003O006A0000\r"
+    - bar: 89
+      ch: 1
+      data: "00\r"
+    - bar: 89
+      ch: 1
+      data: "00\r"
+    - bar: 89
+      ch: 1
+      data: "00\r"
+    - bar: 89
+      ch: 1
+      data: "61\r"
+    - bar: 89
+      ch: 11
+      data: "1J0000001J00006700001K001J003R00\r"
+    - bar: 89
+      ch: 1
+      data: "00\r"
+    - bar: 89
+      ch: 19
+      data: "633N65661J68696B\r"
+    - bar: 89
+      ch: 1
+      data: "00\r"
+    - bar: 89
+      ch: 1
+      data: "00\r"
+    - bar: 89
+      ch: 1
+      data: "00\r"
+    - bar: 89
+      ch: 12
+      data: "003M0000003Q003S0000002Z00001K00\r"
+    - bar: 89
+      ch: 1
+      data: "00\r"
+    - bar: 89
+      ch: 1
+      data: "0042004200420042\r"
+    - bar: 89
+      ch: 1
+      data: "00\r"
+    - bar: 89
+      ch: 1
+      data: "00\r"
+    - bar: 89
+      ch: 18
+      data: "3L00003O00003R003L003N003P00003S\r"
+    - bar: 89
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 90
+      ch: 19
+      data: "6C003N006E00006G00006H00006J6K00\r"
+    - bar: 90
+      ch: 1
+      data: "00\r"
+    - bar: 90
+      ch: 1
+      data: "00\r"
+    - bar: 90
+      ch: 1
+      data: "BHBKBJBGBLBIBHBK\r"
+    - bar: 90
+      ch: 11
+      data: "1J001J1K1J1K1J1K\r"
+    - bar: 90
+      ch: 1
+      data: "B8BBBAB7BCB9B8BB\r"
+    - bar: 90
+      ch: 1
+      data: "00\r"
+    - bar: 90
+      ch: 18
+      data: "00006D0000003O000000000000003S00000000003N0000003P00003600003S00\r"
+    - bar: 90
+      ch: 1
+      data: "00\r"
+    - bar: 90
+      ch: 1
+      data: "00\r"
+    - bar: 90
+      ch: 1
+      data: "0042004200420042\r"
+    - bar: 90
+      ch: 1
+      data: "00\r"
+    - bar: 90
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 90
+      ch: 1
+      data: "00\r"
+    - bar: 90
+      ch: 1
+      data: "3V3T3W3T3U3T3V3T\r"
+    - bar: 90
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 90
+      ch: 13
+      data: "001K306F2G2P3237\r"
+    - bar: 90
+      ch: 15
+      data: "2F002P003P003R00003M003O00350000\r"
+    - bar: 90
+      ch: 1
+      data: "00\r"
+    - bar: 90
+      ch: 1
+      data: "00450045\r"
+    - bar: 90
+      ch: 12
+      data: "003M0000000037003L0000006I3Q0038\r"
+    - bar: 90
+      ch: 14
+      data: "3L00000000002Z0000003Q000000380000002J0000002Z00003400003R000000\r"
+    - bar: 90
+      ch: 1
+      data: "00\r"
+    - bar: 91
+      ch: 19
+      data: "6L2P6N6O3L6Q6R6T\r"
+    - bar: 91
+      ch: 1
+      data: "00\r"
+    - bar: 91
+      ch: 1
+      data: "00450045\r"
+    - bar: 91
+      ch: 1
+      data: "00\r"
+    - bar: 91
+      ch: 11
+      data: "1J0000001J0037001J0000001J000038\r"
+    - bar: 91
+      ch: 1
+      data: "BAB7BCB9B8BBBAB7\r"
+    - bar: 91
+      ch: 1
+      data: "0042004200420042\r"
+    - bar: 91
+      ch: 1
+      data: "00\r"
+    - bar: 91
+      ch: 18
+      data: "006M003O0000006P00003N00006S003S\r"
+    - bar: 91
+      ch: 1
+      data: "00\r"
+    - bar: 91
+      ch: 12
+      data: "00001K00003Q003800001K0031001K00\r"
+    - bar: 91
+      ch: 1
+      data: "BJBGBLBIBHBKBJBG\r"
+    - bar: 91
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 91
+      ch: 1
+      data: "00\r"
+    - bar: 91
+      ch: 1
+      data: "00\r"
+    - bar: 91
+      ch: 1
+      data: "00\r"
+    - bar: 91
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 91
+      ch: 1
+      data: "00\r"
+    - bar: 91
+      ch: 1
+      data: "3W3T3U3T3V3T3W3T\r"
+    - bar: 91
+      ch: 15
+      data: "3L003N0031003R00003M003O003Q0000\r"
+    - bar: 91
+      ch: 1
+      data: "00\r"
+    - bar: 91
+      ch: 14
+      data: "003M00003P001K002F00002Z00003700\r"
+    - bar: 91
+      ch: 13
+      data: "2F00002Z0000003S00002P003P003R00\r"
+    - bar: 92
+      ch: 15
+      data: "2F00000000000000000000003N00000000000000000000003300000000000000000000003R00000000000000000000000000000000002I00000000000000002J0000000000000000000000003I00000000000000720000000000000000003A00\r"
+    - bar: 92
+      ch: 1
+      data: "000000000000000000000000003Q3R00\r"
+    - bar: 92
+      ch: 13
+      data: "3L00000000000000000000001K00000000000000000000000000000000003200000000000000000000006Y00000000000000000000000000000000002G00000000000000002K000000000000000000003G0000000000000000003S0000000000\r"
+    - bar: 92
+      ch: 19
+      data: "006V00006W006X002H006Z001L71003B\r"
+    - bar: 92
+      ch: 1
+      data: "00\r"
+    - bar: 92
+      ch: 1
+      data: "BLBMBNBGBLBIBHBF\r"
+    - bar: 92
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 92
+      ch: 1
+      data: "BCBDBEB7BCB9B8B6\r"
+    - bar: 92
+      ch: 1
+      data: "00450045\r"
+    - bar: 92
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 92
+      ch: 1
+      data: "00\r"
+    - bar: 92
+      ch: 14
+      data: "6U00000000000000000000000000000000000000000000003P00000000000000000000003700000000000000000000003L00000000000000002L00000000000000002H00000000003P00000000003H000000000000003E000000000000000000\r"
+    - bar: 92
+      ch: 1
+      data: "0042424200430000\r"
+    - bar: 92
+      ch: 18
+      data: "0000000000003M00000000000000000000003O00000000000000000000003Q00000000000000000000003S00000000000000002K00000000000000003N000000000000000000000000003K0000000000000000003D0000000000000039000000\r"
+    - bar: 92
+      ch: 1
+      data: "00000044\r"
+    - bar: 92
+      ch: 1
+      data: "00\r"
+    - bar: 92
+      ch: 1
+      data: "00\r"
+    - bar: 92
+      ch: 1
+      data: "00\r"
+    - bar: 92
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 92
+      ch: 12
+      data: "1J00000000000000002Z00000000000000000000003800000000003M00000000003O000070000000003F00003C000000\r"
+    - bar: 92
+      ch: 11
+      data: "002P1J1K1J1K3J1M\r"
+    - bar: 92
+      ch: 1
+      data: "00\r"
+    - bar: 92
+      ch: 1
+      data: "00\r"
+    - bar: 93
+      ch: 19
+      data: "633N65663L68696B\r"
+    - bar: 93
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 93
+      ch: 14
+      data: "3L00002Z003Q003S00002P0031003700\r"
+    - bar: 93
+      ch: 1
+      data: "BCB9B8BBBAB7BCB9\r"
+    - bar: 93
+      ch: 1
+      data: "00\r"
+    - bar: 93
+      ch: 13
+      data: "0064000031000067003M002Z00001K00\r"
+    - bar: 93
+      ch: 12
+      data: "2F001K000000003800001K00003Q0038\r"
+    - bar: 93
+      ch: 18
+      data: "003M003O00003R000000003O006A003S\r"
+    - bar: 93
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 93
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 93
+      ch: 1
+      data: "00\r"
+    - bar: 93
+      ch: 15
+      data: "002P3P372F3N3P3R\r"
+    - bar: 93
+      ch: 1
+      data: "00\r"
+    - bar: 93
+      ch: 11
+      data: "1J001J1K1J001J00\r"
+    - bar: 93
+      ch: 1
+      data: "00\r"
+    - bar: 93
+      ch: 1
+      data: "BLBIBHBKBJBGBLBI\r"
+    - bar: 93
+      ch: 1
+      data: "00450045\r"
+    - bar: 93
+      ch: 1
+      data: "00\r"
+    - bar: 93
+      ch: 1
+      data: "00\r"
+    - bar: 93
+      ch: 1
+      data: "00\r"
+    - bar: 93
+      ch: 1
+      data: "0042004200420042\r"
+    - bar: 93
+      ch: 1
+      data: "00\r"
+    - bar: 93
+      ch: 1
+      data: "00\r"
+    - bar: 94
+      ch: 1
+      data: "BHBKBJBGBLBIBHBK\r"
+    - bar: 94
+      ch: 1
+      data: "3V3T3W3T3U3T3V3T\r"
+    - bar: 94
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 94
+      ch: 11
+      data: "1J0000001J000038002L002Z003Q1K00\r"
+    - bar: 94
+      ch: 1
+      data: "00\r"
+    - bar: 94
+      ch: 13
+      data: "2F002P003000006G003M003O00350000\r"
+    - bar: 94
+      ch: 1
+      data: "00\r"
+    - bar: 94
+      ch: 1
+      data: "00450045\r"
+    - bar: 94
+      ch: 1
+      data: "B8BBBAB7BCB9B8BB\r"
+    - bar: 94
+      ch: 1
+      data: "00\r"
+    - bar: 94
+      ch: 1
+      data: "00\r"
+    - bar: 94
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 94
+      ch: 15
+      data: "3L00002Z000037002I00000033003700\r"
+    - bar: 94
+      ch: 1
+      data: "00\r"
+    - bar: 94
+      ch: 14
+      data: "00003M00000000003P0000001K0000001J0000002P000000003400003R000000\r"
+    - bar: 94
+      ch: 1
+      data: "00\r"
+    - bar: 94
+      ch: 19
+      data: "6C3N6E6F006H6I6K\r"
+    - bar: 94
+      ch: 12
+      data: "000000001K00000000003Q0000003S00000000001K0000001J00003600003800\r"
+    - bar: 94
+      ch: 1
+      data: "00\r"
+    - bar: 94
+      ch: 1
+      data: "00\r"
+    - bar: 94
+      ch: 1
+      data: "0042004200420042\r"
+    - bar: 94
+      ch: 18
+      data: "006D003O00003R003L003N003P6J003S\r"
+    - bar: 94
+      ch: 1
+      data: "00\r"
+    - bar: 95
+      ch: 19
+      data: "6L3N6N6O2F6Q6R6T\r"
+    - bar: 95
+      ch: 1
+      data: "00\r"
+    - bar: 95
+      ch: 1
+      data: "0042004200420042\r"
+    - bar: 95
+      ch: 12
+      data: "00001K00003Q0038003M000031003700\r"
+    - bar: 95
+      ch: 1
+      data: "BJBGBLBIBHBKBJBG\r"
+    - bar: 95
+      ch: 1
+      data: "00\r"
+    - bar: 95
+      ch: 1
+      data: "00\r"
+    - bar: 95
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 95
+      ch: 1
+      data: "00\r"
+    - bar: 95
+      ch: 15
+      data: "3L002P003P00006P001Q003O001T0038\r"
+    - bar: 95
+      ch: 1
+      data: "00\r"
+    - bar: 95
+      ch: 14
+      data: "003M00003100003S0000002Z006S001V\r"
+    - bar: 95
+      ch: 1
+      data: "3W3T3U3T3V3T3W3T\r"
+    - bar: 95
+      ch: 11
+      data: "1J001N1O1P1R1S1U\r"
+    - bar: 95
+      ch: 1
+      data: "00\r"
+    - bar: 95
+      ch: 1
+      data: "00450045\r"
+    - bar: 95
+      ch: 1
+      data: "00\r"
+    - bar: 95
+      ch: 1
+      data: "00\r"
+    - bar: 95
+      ch: 1
+      data: "00\r"
+    - bar: 95
+      ch: 18
+      data: "006M003O00003R003L003N00003Q003S\r"
+    - bar: 95
+      ch: 13
+      data: "2F00002Z0000370000002P003P003R00\r"
+    - bar: 95
+      ch: 1
+      data: "BAB7BCB9B8BBBAB7\r"
+    - bar: 95
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 96
+      ch: 13
+      data: "3L00000000000000000000002P00000000000000000000003200000000000000000000000000000000003S00000000000000000000002H00000000000000000000000000002J0000000000003I00000000000000720000000000000039000000\r"
+    - bar: 96
+      ch: 1
+      data: "0000000000000000000000000000005U00000000000000000000000000000000\r"
+    - bar: 96
+      ch: 1
+      data: "00000000000000005M5N5O5P5Q5R5S5T\r"
+    - bar: 96
+      ch: 19
+      data: "6U003N003P006X004H006Z0070003D3S\r"
+    - bar: 96
+      ch: 1
+      data: "00\r"
+    - bar: 96
+      ch: 1
+      data: "000000000000000000004I00003Q0000\r"
+    - bar: 96
+      ch: 1
+      data: "00\r"
+    - bar: 96
+      ch: 1
+      data: "00004242424242000000430000000000\r"
+    - bar: 96
+      ch: 1
+      data: "00000044\r"
+    - bar: 96
+      ch: 1
+      data: "00\r"
+    - bar: 96
+      ch: 1
+      data: "00\r"
+    - bar: 96
+      ch: 1
+      data: "00\r"
+    - bar: 96
+      ch: 1
+      data: "00\r"
+    - bar: 96
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 96
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 96
+      ch: 14
+      data: "00004C0000003O0000003Q0000006Y000000002K00002G0000003H0000003B00\r"
+    - bar: 96
+      ch: 1
+      data: "00\r"
+    - bar: 96
+      ch: 1
+      data: "00\r"
+    - bar: 96
+      ch: 1
+      data: "BLBMBNBGBLBIBHBF\r"
+    - bar: 96
+      ch: 1
+      data: "00\r"
+    - bar: 96
+      ch: 4
+      data: "2A012B012C012D012E012F012G012H012I012J012K012L012M012N012O012P01\r"
+    - bar: 96
+      ch: 1
+      data: "BCBDBEB7BCB9B8B6\r"
+    - bar: 96
+      ch: 1
+      data: "0000000000000000000000004J004K4L\r"
+    - bar: 96
+      ch: 12
+      data: "4B00000000000000000000000000000000004E00000000000000000000003300000000000000000000003800000000000000002J00000000000000000000000000003O000000000000003K0000000000000000003R0000000000000000003A00\r"
+    - bar: 96
+      ch: 18
+      data: "0000000000003M00000000000000000000002Z00000000000000000000000000000000003R00000000000000000000000000000000003M00000000000000002L00000000000000003P0000000000000000003F0000003E000000000000000000\r"
+    - bar: 96
+      ch: 1
+      data: "00\r"
+    - bar: 96
+      ch: 1
+      data: "5Z5Y5X5Z5Y5X5W5V\r"
+    - bar: 96
+      ch: 1
+      data: "00000000000000000000000000710000\r"
+    - bar: 96
+      ch: 1
+      data: "00\r"
+    - bar: 96
+      ch: 11
+      data: "2F4D6W4G2G3N1W1W\r"
+    - bar: 96
+      ch: 1
+      data: "00\r"
+    - bar: 96
+      ch: 15
+      data: "0000006V00000000000000004F00000000003700000000003L00000000002I00000000003J0000003G0000003C000000\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 1
+      data: "8A\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 19
+      data: "0064000065004267003M003O006A003S\r"
+    - bar: 97
+      ch: 16
+      data: "3X\r"
+    - bar: 97
+      ch: 15
+      data: "2F00003O000066003L00002Z00004200\r"
+    - bar: 97
+      ch: 1
+      data: "60\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 13
+      data: "003M002Z00003R002F002P00003Q0038\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 18
+      data: "3L003N003P00003S0000420069006B00\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 1
+      data: "BLBIBHBKBJBGBLBI\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 11
+      data: "1J421J371J3N1J37\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 97
+      ch: 1
+      data: "BCB9B8BBBAB7BCB9\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 97
+      ch: 14
+      data: "63002P00003Q00380000680031003R00\r"
+    - bar: 97
+      ch: 12
+      data: "001K311K001K3P1K\r"
+    - bar: 97
+      ch: 1
+      data: "00450045\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 97
+      ch: 1
+      data: "00\r"
+    - bar: 98
+      ch: 1
+      data: "00\r"
+    - bar: 98
+      ch: 1
+      data: "3V3T3W3T3U3T3V3T\r"
+    - bar: 98
+      ch: 18
+      data: "6C00003O00003R003L003N003P003R00\r"
+    - bar: 98
+      ch: 1
+      data: "00\r"
+    - bar: 98
+      ch: 1
+      data: "00\r"
+    - bar: 98
+      ch: 1
+      data: "BHBKBJBGBLBIBHBK\r"
+    - bar: 98
+      ch: 1
+      data: "000000000000000000000000003Q0000\r"
+    - bar: 98
+      ch: 1
+      data: "00\r"
+    - bar: 98
+      ch: 11
+      data: "1J001K001J00003S00001K0032001K00\r"
+    - bar: 98
+      ch: 13
+      data: "006D00003P001K6G003M003O00354200\r"
+    - bar: 98
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 98
+      ch: 1
+      data: "00\r"
+    - bar: 98
+      ch: 1
+      data: "B8BBBAB7BCB9B8BB\r"
+    - bar: 98
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 98
+      ch: 1
+      data: "00\r"
+    - bar: 98
+      ch: 1
+      data: "00\r"
+    - bar: 98
+      ch: 14
+      data: "3L004200000042001J004200006J0038\r"
+    - bar: 98
+      ch: 1
+      data: "00450045\r"
+    - bar: 98
+      ch: 19
+      data: "003N6E6F006H6I6K\r"
+    - bar: 98
+      ch: 12
+      data: "00003M0000002Z0000003Q000000380000002K0000002Z000034000037000000\r"
+    - bar: 98
+      ch: 1
+      data: "00\r"
+    - bar: 98
+      ch: 1
+      data: "00\r"
+    - bar: 98
+      ch: 15
+      data: "2F0000002P00000030000000370000002H0000002P0000001J00003600003S00\r"
+    - bar: 99
+      ch: 11
+      data: "1J0042001J00006P003M002Z003Q0000\r"
+    - bar: 99
+      ch: 1
+      data: "00\r"
+    - bar: 99
+      ch: 1
+      data: "3W3T3U3T3V3T3W3T\r"
+    - bar: 99
+      ch: 1
+      data: "00\r"
+    - bar: 99
+      ch: 1
+      data: "BAB7BCB9B8BBBAB7\r"
+    - bar: 99
+      ch: 14
+      data: "00001K003100003800001K0031003R00\r"
+    - bar: 99
+      ch: 15
+      data: "006M003O000037002F002P003P006T00\r"
+    - bar: 99
+      ch: 1
+      data: "00450045\r"
+    - bar: 99
+      ch: 12
+      data: "003M00003P003R001J00003O00001K00\r"
+    - bar: 99
+      ch: 1
+      data: "00\r"
+    - bar: 99
+      ch: 1
+      data: "00\r"
+    - bar: 99
+      ch: 1
+      data: "00\r"
+    - bar: 99
+      ch: 1
+      data: "00\r"
+    - bar: 99
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 99
+      ch: 1
+      data: "00\r"
+    - bar: 99
+      ch: 13
+      data: "2F00002Z00001K003L0042001J003700\r"
+    - bar: 99
+      ch: 1
+      data: "00\r"
+    - bar: 99
+      ch: 1
+      data: "BJBGBLBIBHBKBJBG\r"
+    - bar: 99
+      ch: 19
+      data: "6L002P006N006O0000006Q00006S0038\r"
+    - bar: 99
+      ch: 18
+      data: "3L003N00003Q003S00003N006R00003S\r"
+    - bar: 99
+      ch: 1
+      data: "0000004200000042\r"
+    - bar: 99
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 99
+      ch: 1
+      data: "00\r"
+    - bar: 100
+      ch: 1
+      data: "00\r"
+    - bar: 100
+      ch: 1
+      data: "00\r"
+    - bar: 100
+      ch: 1
+      data: "BLBMBNBGBLBIBHBF\r"
+    - bar: 100
+      ch: 1
+      data: "00\r"
+    - bar: 100
+      ch: 1
+      data: "00\r"
+    - bar: 100
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 100
+      ch: 1
+      data: "62\r"
+    - bar: 100
+      ch: 14
+      data: "6U00000000002Z0000003200000038000000002J00003O0000003H0000003B00\r"
+    - bar: 100
+      ch: 1
+      data: "00\r"
+    - bar: 100
+      ch: 12
+      data: "2F00000000000000000000001K00000000000000000000003300000000000000000000001K00000000000000000000000000002L00000000000000001K000000000000000000000000003K0000000000000000003R0000000000000000003A00\r"
+    - bar: 100
+      ch: 18
+      data: "0000000000006V00000000000000000000000000000000003P00000000000000000000003R00000000000000000000003L00000000000000000000000000002K00000000000000003P0000000000000000003F0000003E000000000000000000\r"
+    - bar: 100
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 100
+      ch: 1
+      data: "00\r"
+    - bar: 100
+      ch: 1
+      data: "00\r"
+    - bar: 100
+      ch: 1
+      data: "00\r"
+    - bar: 100
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 100
+      ch: 1
+      data: "00\r"
+    - bar: 100
+      ch: 1
+      data: "00000044\r"
+    - bar: 100
+      ch: 1
+      data: "00\r"
+    - bar: 100
+      ch: 1
+      data: "00\r"
+    - bar: 100
+      ch: 1
+      data: "00\r"
+    - bar: 100
+      ch: 1
+      data: "00\r"
+    - bar: 100
+      ch: 1
+      data: "0000004200430000\r"
+    - bar: 100
+      ch: 1
+      data: "BCBDBEB7BCB9B8B6\r"
+    - bar: 100
+      ch: 1
+      data: "00\r"
+    - bar: 100
+      ch: 19
+      data: "000042006W00006Y003M002I70003D3S\r"
+    - bar: 100
+      ch: 13
+      data: "3L00000000000000000000002P00000000000000000000004200000000000000000000003700000000000000000000000000000000002G00000000006Z00000000000000002L0000000000003I00000000000000720000000000000039000000\r"
+    - bar: 100
+      ch: 1
+      data: "00000000000000000000000000710000\r"
+    - bar: 100
+      ch: 15
+      data: "0000003M00000000003O00000000003Q00000000003S00002I00000000002H00000000003J0000003G0000003C000000\r"
+    - bar: 100
+      ch: 1
+      data: "00450045\r"
+    - bar: 100
+      ch: 1
+      data: "00\r"
+    - bar: 100
+      ch: 11
+      data: "1J003N001J006X001J003N001L3Q1M00\r"
+    - bar: 100
+      ch: 1
+      data: "00\r"
+    - bar: 100
+      ch: 1
+      data: "00\r"
+    - bar: 100
+      ch: 1
+      data: "00\r"
+    - bar: 101
+      ch: 18
+      data: "3L003N003P003R003L003N003P00003S\r"
+    - bar: 101
+      ch: 13
+      data: "003M002Z000000380000680031003700\r"
+    - bar: 101
+      ch: 1
+      data: "00\r"
+    - bar: 101
+      ch: 1
+      data: "00\r"
+    - bar: 101
+      ch: 1
+      data: "00\r"
+    - bar: 101
+      ch: 1
+      data: "00\r"
+    - bar: 101
+      ch: 1
+      data: "BCB9B8BBBAB7BCB9\r"
+    - bar: 101
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 101
+      ch: 7
+      data: "1U011U011V011V011W011W011X011X011Y011Y011Z011Z0120012001210121012201220123012301240124012501250126012601270127012801280129012901\r"
+    - bar: 101
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 101
+      ch: 12
+      data: "00001K00003Q00670000002Z00001K00\r"
+    - bar: 101
+      ch: 1
+      data: "00\r"
+    - bar: 101
+      ch: 1
+      data: "00\r"
+    - bar: 101
+      ch: 14
+      data: "63002P0031001K001J002P00003Q0000\r"
+    - bar: 101
+      ch: 1
+      data: "BLBIBHBKBJBGBLBI\r"
+    - bar: 101
+      ch: 1
+      data: "0042004200420042\r"
+    - bar: 101
+      ch: 15
+      data: "2F00003O000037002F00003O006A0038\r"
+    - bar: 101
+      ch: 1
+      data: "00450045\r"
+    - bar: 101
+      ch: 1
+      data: "00\r"
+    - bar: 101
+      ch: 19
+      data: "0064000065006600003M000069006B00\r"
+    - bar: 101
+      ch: 11
+      data: "1J0000001J00003S00001K001J003R00\r"
+    - bar: 101
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 101
+      ch: 1
+      data: "00\r"
+    - bar: 101
+      ch: 1
+      data: "00\r"
+    - bar: 102
+      ch: 1
+      data: "00\r"
+    - bar: 102
+      ch: 18
+      data: "003M00003P003R003L003N003P003R00\r"
+    - bar: 102
+      ch: 1
+      data: "3V3T3W3T3U3T3V3T\r"
+    - bar: 102
+      ch: 1
+      data: "BHBKBJBGBLBIBHBK\r"
+    - bar: 102
+      ch: 1
+      data: "00\r"
+    - bar: 102
+      ch: 1
+      data: "00\r"
+    - bar: 102
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 102
+      ch: 15
+      data: "00003N00300000380000002Z003Q3700\r"
+    - bar: 102
+      ch: 11
+      data: "1J0000001J00003S003M00001J006K00\r"
+    - bar: 102
+      ch: 7
+      data: "1U011U011V011V011W011W011X011X011Y011Y011Z011Z0120012001210121012201220123012301240124012501250126012601270127012801280129012901\r"
+    - bar: 102
+      ch: 1
+      data: "00\r"
+    - bar: 102
+      ch: 12
+      data: "6C0000001K0000006E000000370000001J0000001K000000003400001K000000\r"
+    - bar: 102
+      ch: 1
+      data: "B8BBBAB7BCB9B8BB\r"
+    - bar: 102
+      ch: 13
+      data: "2F00002Z00001K00002J003O00350000\r"
+    - bar: 102
+      ch: 1
+      data: "00450045\r"
+    - bar: 102
+      ch: 1
+      data: "0042004200420042\r"
+    - bar: 102
+      ch: 1
+      data: "00\r"
+    - bar: 102
+      ch: 14
+      data: "3L0000002P00000000003Q0000006G00000000002P0000003300003600003800\r"
+    - bar: 102
+      ch: 19
+      data: "006D003O00006F002G006H006I6J003S\r"
+    - bar: 102
+      ch: 1
+      data: "00\r"
+    - bar: 102
+      ch: 1
+      data: "00\r"
+    - bar: 102
+      ch: 1
+      data: "00\r"
+    - bar: 102
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 102
+      ch: 1
+      data: "00\r"
+    - bar: 103
+      ch: 14
+      data: "003M0000003Q003S0000BK004R004T00\r"
+    - bar: 103
+      ch: 1
+      data: "00\r"
+    - bar: 103
+      ch: 1
+      data: "00450045\r"
+    - bar: 103
+      ch: 12
+      data: "6L003N00BL00B900003M0000BA00B700\r"
+    - bar: 103
+      ch: 1
+      data: "3W3T3U3T3V3T3W3T\r"
+    - bar: 103
+      ch: 18
+      data: "3L00B7003P00006P00000000BJ6S0000\r"
+    - bar: 103
+      ch: 1
+      data: "00\r"
+    - bar: 103
+      ch: 1
+      data: "00\r"
+    - bar: 103
+      ch: 1
+      data: "0042004200420042\r"
+    - bar: 103
+      ch: 4
+      data: "9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9ZA0A1A2A3A4A5A6A7A8A9AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZB0B1B2B3B4B5\r"
+    - bar: 103
+      ch: 1
+      data: "00\r"
+    - bar: 103
+      ch: 1
+      data: "00\r"
+    - bar: 103
+      ch: 7
+      data: "1U011U011V011V011W011W011X011X011Y011Y011Z011Z0120012001210121012201220123012301240124012501250126012601270127012801280129012901\r"
+    - bar: 103
+      ch: 11
+      data: "BA00BG00BC00BI00B800003O003QBG00\r"
+    - bar: 103
+      ch: 1
+      data: "00\r"
+    - bar: 103
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 103
+      ch: 1
+      data: "00\r"
+    - bar: 103
+      ch: 1
+      data: "00\r"
+    - bar: 103
+      ch: 19
+      data: "006M00006N006O003L006Q006R006T00\r"
+    - bar: 103
+      ch: 1
+      data: "00\r"
+    - bar: 103
+      ch: 1
+      data: "00\r"
+    - bar: 103
+      ch: 13
+      data: "4M00003O00003R00BH00BB00004S003S\r"
+    - bar: 103
+      ch: 1
+      data: "00\r"
+    - bar: 103
+      ch: 15
+      data: "BJ4N4O4P4Q3N3P3R\r"
+    - bar: 104
+      ch: 12
+      data: "3L3N6W50523N705V\r"
+    - bar: 104
+      ch: 1
+      data: "00000044\r"
+    - bar: 104
+      ch: 19
+      data: "5ZBD4Y6XBCB956B6\r"
+    - bar: 104
+      ch: 1
+      data: "00\r"
+    - bar: 104
+      ch: 1
+      data: "00\r"
+    - bar: 104
+      ch: 1
+      data: "00\r"
+    - bar: 104
+      ch: 1
+      data: "00\r"
+    - bar: 104
+      ch: 1
+      data: "00\r"
+    - bar: 104
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 104
+      ch: 18
+      data: "6U005Y003P005Z003L006Z003P00003S\r"
+    - bar: 104
+      ch: 1
+      data: "00004242424242000000430000000000\r"
+    - bar: 104
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 104
+      ch: 1
+      data: "00\r"
+    - bar: 104
+      ch: 4
+      data: "2A012B012C012D012E012F012G012H012I012J012K012L012M012N012O012P01\r"
+    - bar: 104
+      ch: 1
+      data: "00\r"
+    - bar: 104
+      ch: 14
+      data: "003M00005X003R005Y005400003Q0000\r"
+    - bar: 104
+      ch: 1
+      data: "00\r"
+    - bar: 104
+      ch: 1
+      data: "00\r"
+    - bar: 104
+      ch: 1
+      data: "0000000000000000000000000000005U00000000000000000000000000000000\r"
+    - bar: 104
+      ch: 1
+      data: "BLBMBNBGBLBIBHBF\r"
+    - bar: 104
+      ch: 11
+      data: "4U004W00BE00B75100530055B8007200\r"
+    - bar: 104
+      ch: 1
+      data: "00\r"
+    - bar: 104
+      ch: 1
+      data: "00\r"
+    - bar: 104
+      ch: 13
+      data: "004V004X003Q006Y00005X005W003R00\r"
+    - bar: 104
+      ch: 1
+      data: "00\r"
+    - bar: 104
+      ch: 1
+      data: "00\r"
+    - bar: 104
+      ch: 1
+      data: "00\r"
+    - bar: 104
+      ch: 1
+      data: "00\r"
+    - bar: 104
+      ch: 1
+      data: "00\r"
+    - bar: 104
+      ch: 15
+      data: "BC6V003O004Z003S003M003O00710000\r"
+    - bar: 104
+      ch: 1
+      data: "00\r"
+    - bar: 105
+      ch: 11
+      data: "1Y0000000000000000002Y2W00000000\r"
+    - bar: 105
+      ch: 16
+      data: "3X45\r"
+    - bar: 105
+      ch: 14
+      data: "00000000000000002O000000000000000000000000000000000000000000000000000000000000000000002V00000000000000002R0000000000000000000000\r"
+    - bar: 105
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 105
+      ch: 7
+      data: "2Q2R2S2T2U2V2W2X2Y2Z3031323334355E5F5G5H5I5J5K5L5M5N5O5P5Q5R5S5T\r"
+    - bar: 105
+      ch: 1
+      data: "00\r"
+    - bar: 105
+      ch: 1
+      data: "00\r"
+    - bar: 105
+      ch: 1
+      data: "26\r"
+    - bar: 105
+      ch: 19
+      data: "002Q0000000000002R00002K00000000\r"
+    - bar: 105
+      ch: 1
+      data: "00\r"
+    - bar: 105
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 105
+      ch: 1
+      data: "00\r"
+    - bar: 105
+      ch: 1
+      data: "00\r"
+    - bar: 105
+      ch: 18
+      data: "00002N00002J002S\r"
+    - bar: 105
+      ch: 1
+      data: "00\r"
+    - bar: 105
+      ch: 1
+      data: "00\r"
+    - bar: 105
+      ch: 12
+      data: "0000000000000000000000002G000000000000000000000000000000000000002I00000000000000002T000000002X00000000002L0000000000000000000000\r"
+    - bar: 105
+      ch: 1
+      data: "00\r"
+    - bar: 105
+      ch: 15
+      data: "2P00000000002M00002S00002Q000000\r"
+    - bar: 105
+      ch: 13
+      data: "2F00000000000000000000002H00000000000000002U00000000000000002Q00\r"
+    - bar: 105
+      ch: 4
+      data: "7M7N7O7P7Q7R7S7T7U7V7W7X7Y7Z808182838485868788898A8B8C8D8E8F8G8H\r"
+    - bar: 106
+      ch: 12
+      data: "002R00000000000000002J00002L0000\r"
+    - bar: 106
+      ch: 1
+      data: "00\r"
+    - bar: 106
+      ch: 1
+      data: "00\r"
+    - bar: 106
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 106
+      ch: 1
+      data: "00\r"
+    - bar: 106
+      ch: 1
+      data: "00\r"
+    - bar: 106
+      ch: 1
+      data: "00\r"
+    - bar: 106
+      ch: 1
+      data: "00\r"
+    - bar: 106
+      ch: 16
+      data: "0045\r"
+    - bar: 106
+      ch: 19
+      data: "2F00000000002M0000002Y2W002S0000\r"
+    - bar: 106
+      ch: 1
+      data: "00\r"
+    - bar: 106
+      ch: 14
+      data: "00000000000000002O000000000000000000000000000000000000000000000000000000000000000000002V0000000000000000000000000000000000000000\r"
+    - bar: 106
+      ch: 1
+      data: "3V3T3W3T3U3T3V3T\r"
+    - bar: 106
+      ch: 18
+      data: "0000000000000000000000002G000000000000000000000000000000000000000000000000000000002T000000002X0000000000000000000000000000000000\r"
+    - bar: 106
+      ch: 13
+      data: "000000002N0000002I0000002R00002R\r"
+    - bar: 106
+      ch: 7
+      data: "3L3K3J3I3H3G3F3E3D3C3B3A393837365U5V5W5X5Y5Z60616263646566676869\r"
+    - bar: 106
+      ch: 15
+      data: "2P0000000000000000000000000000002S000000002U0000000000002Q000000\r"
+    - bar: 106
+      ch: 1
+      data: "00\r"
+    - bar: 106
+      ch: 1
+      data: "00\r"
+    - bar: 106
+      ch: 4
+      data: "8I8J8K8L8M8N8O8P8Q8R8S8T8U8V8W8X8Y8Z909192939495969798999A9B9C9D\r"
+    - bar: 106
+      ch: 11
+      data: "1Y00000000002H00002Q002K00000000\r"
+    - bar: 107
+      ch: 1
+      data: "00\r"
+    - bar: 107
+      ch: 18
+      data: "2P000000000000000000000000000000000000000000000000000000000000000000000000000000002T000000002X0000000000000000002R00000000000000\r"
+    - bar: 107
+      ch: 1
+      data: "00\r"
+    - bar: 107
+      ch: 19
+      data: "2F0000000000000000002Y2W00000000\r"
+    - bar: 107
+      ch: 1
+      data: "00\r"
+    - bar: 107
+      ch: 1
+      data: "3W3T3U3T3V3T3W3T\r"
+    - bar: 107
+      ch: 14
+      data: "000000002S000000000000000000000000000000000000002H0000000000000000000000000000000000002V00000000000000002Q0000000000000000000000\r"
+    - bar: 107
+      ch: 1
+      data: "00\r"
+    - bar: 107
+      ch: 1
+      data: "00\r"
+    - bar: 107
+      ch: 15
+      data: "0000000000002G0000000000000000002Q000000002U00000000000000002S00\r"
+    - bar: 107
+      ch: 1
+      data: "00\r"
+    - bar: 107
+      ch: 12
+      data: "002O002M002J0000\r"
+    - bar: 107
+      ch: 4
+      data: "7M7N7O7P7Q7R7S7T7U7V7W7X7Y7Z808182838485868788898A8B8C8D8E8F8G8H\r"
+    - bar: 107
+      ch: 1
+      data: "00\r"
+    - bar: 107
+      ch: 1
+      data: "00\r"
+    - bar: 107
+      ch: 13
+      data: "000000002N000000002R00002S000000\r"
+    - bar: 107
+      ch: 1
+      data: "7700000000000000000000000078000000000000000000007900000000000000\r"
+    - bar: 107
+      ch: 16
+      data: "0045\r"
+    - bar: 107
+      ch: 7
+      data: "2Q2R2S2T2U2V2W2X2Y2Z3031323334355E5F5G5H5I5J5K5L5M5N5O5P5Q5R5S5T\r"
+    - bar: 107
+      ch: 11
+      data: "1Y000000000000002I00002K002L0000\r"
+    - bar: 107
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 108
+      ch: 1
+      data: "00\r"
+    - bar: 108
+      ch: 1
+      data: "00\r"
+    - bar: 108
+      ch: 14
+      data: "000000000000000000000000000000005X00000000000000000000000000000000000000000000000000002V00000000000000002R0000000000000000000000\r"
+    - bar: 108
+      ch: 1
+      data: "00\r"
+    - bar: 108
+      ch: 1
+      data: "3U3T3V3T3W3T3U3T\r"
+    - bar: 108
+      ch: 16
+      data: "0045\r"
+    - bar: 108
+      ch: 7
+      data: "01\r"
+    - bar: 108
+      ch: 6
+      data: "767778797A7B7C7D7E7F7G7H7I7J7K7L\r"
+    - bar: 108
+      ch: 1
+      data: "000000000000000000000000000000007A00000000007B000000007C0000007D\r"
+    - bar: 108
+      ch: 15
+      data: "000000000000000000000000000000005Y000000002U0000000000002S000000\r"
+    - bar: 108
+      ch: 1
+      data: "2M2N2O2P002Q2R002S002T2U2V002W00\r"
+    - bar: 108
+      ch: 12
+      data: "002Q000000002M00002S00005W000000\r"
+    - bar: 108
+      ch: 1
+      data: "00\r"
+    - bar: 108
+      ch: 1
+      data: "00\r"
+    - bar: 108
+      ch: 1
+      data: "00\r"
+    - bar: 108
+      ch: 13
+      data: "2P2O0000005X0000\r"
+    - bar: 108
+      ch: 1
+      data: "00\r"
+    - bar: 108
+      ch: 4
+      data: "2A012B012C012D012E012F012G012H012I012J012K012L012M012N012O012P01\r"
+    - bar: 108
+      ch: 18
+      data: "00000000000000005Y00000000000000000000000000000000000000000000000000000000000000002T0000000000002Q000000000000000000000000000000\r"
+    - bar: 108
+      ch: 11
+      data: "1Y0000002N0000002R00002W00005V00\r"
+    - bar: 108
+      ch: 19
+      data: "5Z00000000000000000000005Z000000000000002Y00002X0000000000002Q00\r"
